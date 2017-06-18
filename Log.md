@@ -14,5 +14,10 @@
 * 3 JS katas
 * Derek Banas Youtube JS tutorial completed
 
+## Day 04 - 16/06
+* 7 JS katas
+* CWDC - Sec 2 Lec 10/30
+
+## Day 05 - 17/06
 
 
