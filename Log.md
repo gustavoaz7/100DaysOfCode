@@ -23,6 +23,6 @@
 * CWDC - Sec2 Lec 20/30
 * Codecademy JS Course - 12%
 
-**Thoughts:** I really struggled on my second JS kata today. I don't think it was supposed to take me that long (over an hour) to complete but it was quite rewarding at the end. 
+**Thoughts:** I really struggled on my second [JS kata](https://www.codewars.com/kata/572af273a3af3836660014a1) today. I don't think I was supposed to take that long (over an hour) to complete it but it was quite rewarding when I finally did it. 
 PS: I chose the hard way on this one. Instead of coding for only 3 strings, I did it for any given number of strings. 
 
