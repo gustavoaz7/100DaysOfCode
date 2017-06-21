@@ -31,3 +31,5 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * Codecademy JS Course - 25%
 
 ## Day 07 - 19/06
+* 1 JS kata
+* Codecademy JS Course - 62%
