@@ -37,3 +37,6 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 **Thoughts:** I'm now sprinting my way up on Codecademy JS Course so I can get back on track at FreeCodeCamp algorithms challenges.
 (I was not feeling confident for those challenges before so I decided to hit the Pause button on that and start the JS Course to get a more solid basis)
 
+## Day 08 - 20/06
+* 2 JS katas
+* Codecademy JS Course - 81%
