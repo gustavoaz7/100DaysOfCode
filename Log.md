@@ -42,7 +42,13 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * Codecademy JS Course - 81%
 
 ## Day 09 - 20/06
-* a
+* 1 JS kata
 * Codecademy JS Course Completed!
 
 **Thoughts:** Feels like I'm getting closer to solving real world problems after completing the Cash Register task. I'm more than ready to get back on FCC algorithm challenges.
+
+## Day 10 - 21/06
+* 1 JS kata
+* 10 FCC algorithm challenges
+
+
