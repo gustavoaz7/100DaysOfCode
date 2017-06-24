@@ -51,4 +51,5 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * 1 JS kata
 * 10 FCC algorithm challenges
 
+**Thoughts:** I'm excited to be back on my road to get a Front End Development Certificate. The Codecademy JS Course, along with daily JS katas have definitely helped me to complete these challenges.
 
