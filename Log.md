@@ -53,3 +53,8 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 
 **Thoughts:** I'm excited to be back on my road to get a Front End Development Certificate. The Codecademy JS Course, along with daily JS katas have definitely helped me to complete these challenges.
 
+## Day 11 - 22/06
+* 1 JS kata
+* 5 FCC algorithm challenges
+* ES6 video playlist ([Egghead](https://egghead.io/courses/learn-es6-ecmascript-2015)) 9/16
+
