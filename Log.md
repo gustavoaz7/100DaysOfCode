@@ -58,3 +58,9 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * 5 FCC algorithm challenges
 * ES6 video playlist ([Egghead](https://egghead.io/courses/learn-es6-ecmascript-2015)) 9/16
 
+## Day 12 - 23/06
+* 1 JS kata
+* 1 FCC algorith challenge
+* ES6 video playlist completed
+
+ **Thoughts:**
