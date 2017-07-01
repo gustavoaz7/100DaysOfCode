@@ -64,3 +64,7 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * ES6 video playlist completed
 
  **Thoughts:**
+
+## Day 13 - 24/06
+* 1 JS kata
+* 7 FCC challenges
