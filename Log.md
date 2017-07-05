@@ -41,34 +41,34 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * 2 JS katas
 * Codecademy JS Course - 81%
 
-## Day 09 - 20/06
+## Day 09 - 21/06
 * 1 JS kata
 * Codecademy JS Course Completed!
 
 **Thoughts:** Feels like I'm getting closer to solving real world problems after completing the Cash Register task. I'm more than ready to get back on FCC algorithm challenges.
 
-## Day 10 - 21/06
+## Day 10 - 22/06
 * 1 JS kata
 * 10 FCC algorithm challenges
 
 **Thoughts:** I'm excited to be back on my road to get a Front End Development Certificate. The Codecademy JS Course, along with daily JS katas have definitely helped me to complete these challenges.
 
-## Day 11 - 22/06
+## Day 11 - 23/06
 * 1 JS kata
 * 5 FCC algorithm challenges
 * ES6 video playlist ([Egghead](https://egghead.io/courses/learn-es6-ecmascript-2015)) 9/16
 
-## Day 12 - 23/06
+## Day 12 - 24/06
 * 1 JS kata
 * 1 FCC algorith challenge
 * ES6 video playlist completed
 
  **Thoughts:**
 
-## Day 13 - 24/06
+## Day 13 - 25/06
 * 1 JS kata
 * 7 FCC challenges
 
-## Day 14 - 25/06
+## Day 14 - 26/06
 * 2 JS katas
 * Started working on Random Quote Machine
