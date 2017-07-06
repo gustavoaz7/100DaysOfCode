@@ -72,3 +72,6 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 ## Day 14 - 26/06
 * 2 JS katas
 * Started working on Random Quote Machine
+
+## Day 15 - 27/06
+* 3 JS katas
