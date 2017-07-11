@@ -95,3 +95,7 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 
 ------
 
+### Failed
+I did not code for 1h for the 2 following days. Despite I had coded for over 2h on other days and still had an average coding time of 1h+, I just broke the most important rule of this project. 
+This is my last semester at the university and I had my final exams coming. Right now graduating is my main priority. This was my choice.
+Soon enought I will be graduated and I will be able to code for a longer period of time everyday. 
