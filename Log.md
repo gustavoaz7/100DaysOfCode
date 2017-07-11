@@ -83,3 +83,15 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 ## Day 18 - 29/06
 * 1 FCC challenge (started Intermediate algorithms)
 * CWDC Sec3 100% (project)
+
+## Day 19 - 30/06
+* 2 JS katas (Leveled to 6kyu :) )
+* Still struggling with Quote machine
+
+## Day 20 - 01/07
+* 1 FCC challenge
+* CWDC Sec4 Lec 14/23
+* ([LearnWebCode](https://www.youtube.com/watch?v=rJesac0_Ftw&index=26&list=WL)) JSON/AJAX Youtube tutorial
+
+------
+
