@@ -63,7 +63,7 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 * 1 FCC algorith challenge
 * ES6 video playlist completed
 
- **Thoughts:**
+ **Thoughts:** Great ES6 series. Now I really understand how arrow functions works and also learned some other usefull techniques. Still need to go deeper on `let` and generators.
 
 ## Day 13 - 25/06
 * 1 JS kata
@@ -75,3 +75,11 @@ PS: I chose the hard way on this one. Instead of coding for only 3 strings, I di
 
 ## Day 15 - 27/06
 * 3 JS katas
+
+## Day 16 - 28/06
+* 2 JS katas 
+* CWDC Sec 2 100%
+
+## Day 18 - 29/06
+* 1 FCC challenge (started Intermediate algorithms)
+* CWDC Sec3 100% (project)
