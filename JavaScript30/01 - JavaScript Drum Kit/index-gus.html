@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div class="key" id="a">
+      <h2>A</h2>
+      <span>CLAP</span>
+    </div>
+    <div class="key" id="s">
+      <h2>S</h2>
+      <span>HIHAT</span>
+    </div>
+    <div class="key" id="d">
+      <h2>D</h2>
+      <span>KICK</span>
+    </div>
+    <div class="key" id="f">
+      <h2>F</h2>
+      <span>OPENHAT</span>
+    </div>
+    <div class="key" id="g">
+      <h2>G</h2>
+      <span>BOOM</span>
+    </div>
+    <div class="key" id="h">
+      <h2>H</h2>
+      <span>RIDE</span>
+    </div>
+    <div class="key" id="j">
+      <h2>J</h2>
+      <span>SNARE</span>
+    </div>
+    <div class="key" id="k">
+      <h2>K</h2>
+      <span>TOM</span>
+    </div>
+    <div class="key" id="l">
+      <h2>L</h2>
+      <span>TINK</span>
+    </div>
+  </div>
+
+  <audio id="a" src="sounds/clap.wav"></audio>
+  <audio id="s" src="sounds/hihat.wav"></audio>
+  <audio id="d" src="sounds/kick.wav"></audio>
+  <audio id="f" src="sounds/openhat.wav"></audio>
+  <audio id="g" src="sounds/boom.wav"></audio>
+  <audio id="h" src="sounds/ride.wav"></audio>
+  <audio id="j" src="sounds/snare.wav"></audio>
+  <audio id="k" src="sounds/tom.wav"></audio>
+  <audio id="l" src="sounds/tink.wav"></audio>
+
+<script>
+
+  function playSound (e) {
+  var audio = document.querySelector(`audio[id=${e.key.toLowerCase()}]`);
+  var key = document.querySelector(`.key[id=${e.key.toLowerCase()}]`);
+  if (!audio){return}
+  audio.currentTime = 0;
+  audio.play();
+  key.classList.add('playing');
+
+};
+
+function removeTransition(e){
+  if(e.propertyName!='transform'){return};
+  this.classList.remove('playing');
+}
+
+var keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+window.addEventListener('keydown', playSound);
+</script>
+
+
+</body>
+</html>
+
