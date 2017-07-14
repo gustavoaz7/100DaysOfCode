@@ -12,6 +12,7 @@ I decided to explore the coding world recently and now I decided that there is n
   * Learn Responsive Design
 * FreeCodeCamp
   * All the way up to JavaScript  
+
 And also some Youtube videos and websites.
 
 ### What I've done during my first attempt on this challenge
@@ -19,9 +20,10 @@ And also some Youtube videos and websites.
   * JavaScript
 * FreeCodeCamp
   * Up to Intermediate Front End Development Projects
-* [The Complete Web Development Course](https://www.udemy.com/complete-web-development-course/)
+* The Complete Web Development Course
   * Up to Section 4 (JavaScript)  
-  You can check everything in details [here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/1st%20attempt.md)
+
+You can check everything in details [here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/1st%20attempt.md)
 
 #### My main goals for this challenge are
 * Learn Python
