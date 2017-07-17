@@ -16,3 +16,5 @@ It is not as fun as when the sound goes off as you press the keys.
 ## Day 03 - CSS Variables
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2003.gif?raw=true)
 
+## Day 04 - Array Cardio 1
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2004.png?raw=true)
