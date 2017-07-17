@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+  </form>
+<script>
+const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+
+const cities = [];
+
+fetch(endpoint)
+  .then(a => a.json())
+  .then(data => cities.push(...data));
+
+function searchResult(searchedWord, cities) {
+  var regexp = new RegExp(searchedWord, 'gi');
+  return cities.filter(name => {
+    return name.city.match(regexp) || name.state.match(regexp);  
+  })
+}
+
+function populationComma(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function wordValue(searchedWord) {
+  var matchedNames = searchResult(this.value, cities);
+  var webpage = matchedNames.map(name => {
+    var regex = new RegExp(this.value, 'gi');
+    var HLcityName = name.city.replace(regex, `<span class="hl"> ${this.value}</span>`);
+    var HLstateName = name.state.replace(regex, `<span class="hl"> ${this.value}</span>`);
+    var populationDisplay = populationComma(name.population);
+    return `<li>
+    <span id="name"> ${HLcityName}, ${HLstateName}</span>
+    <span id="population"> ${populationDisplay}</span>
+    </li>`;
+  }).join("");
+searchedResults.innerHTML = webpage;
+}
+
+var searchedWord = document.querySelector('.search');
+searchedWord.addEventListener('keyup', wordValue);
+
+var searchedResults = document.querySelector('.suggestions');
+
+
+</script>
+  </body>
+</html>

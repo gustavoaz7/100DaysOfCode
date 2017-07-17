@@ -1,6 +1,6 @@
     html {
       box-sizing: border-box;
-      background:#ffc600;
+      background:#34495E;
       font-family:'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -67,7 +67,7 @@
     }
 
     .hl {
-      background:#ffc600;
+      background:#59ABE3;
     }
 
     a {
