@@ -18,3 +18,12 @@ It is not as fun as when the sound goes off as you press the keys.
 
 ## Day 04 - Array Cardio 1
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2004.png?raw=true)
+
+## Day 05 - Flex Panel Gallery
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2005.gif?raw=true)
+
+## Day 06 - Type Ahead
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2006.gif?raw=true)
+
+## Day 07 - Array Cardio 2
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2007.png?raw=true)
