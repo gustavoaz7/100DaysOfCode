@@ -7,7 +7,7 @@ You can find the original files in its respective folder, as well as my own file
 
 
 ## Day 01 - Drum Kit
-It is not as fun as when the sound goes off as you press the keys.
+It is more fun with a sound going off as you press the keys.
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2001.gif?raw=true)
 
 ## Day 02 - CSS Clock
@@ -27,3 +27,12 @@ It is not as fun as when the sound goes off as you press the keys.
 
 ## Day 07 - Array Cardio 2
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2007.png?raw=true)
+
+## Day 08 - Fun With HTML5 Canvas
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2008.gif?raw=true)
+
+## Day 09 - Dev Tools Domination
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2009.png?raw=true)
+
+## Day 10 - Hold Shift and Checkboxes
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2010.gif?raw=true)
