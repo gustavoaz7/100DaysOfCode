@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+
+const secret = 'unicorn exist';
+var pressed = "";
+
+function keyPress (e) {
+	pressed += e.key;
+	var test = pressed.substr(-secret.length);
+	console.log(test);
+	if (test == secret) {
+		console.log('%c You unlocked the secret of this website!', 'font-size: 24px; color: grey; font-style: italic;');
+		cornify_add();
+	}
+}
+
+window.addEventListener('keyup', keyPress)
+
+</script>
+</body>
+</html>
