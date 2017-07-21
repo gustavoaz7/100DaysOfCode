@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+    console.log('traditional log');
+
+    // Interpolated
+    console.log('You can insert %s here', 'anything');
+
+    // Styled
+    console.log('%c Styled text', 'font-size:24px; color: green');
+
+    // warning!
+    console.warn('Warning message');
+
+    // Error :|
+    console.error('Error message');
+
+    // Info
+    console.info('Information message');
+
+    // Testing
+        // console.assert( booleam statement, 'message returned if FALSE')
+    console.assert( 2+2>4 , 'That is wrong!');
+
+    // clearing
+        //console.clear();
+
+    // Viewing DOM Elements
+    const p = document.querySelector('p');
+    console.log(p);
+    console.dir(p);
+
+
+    // Grouping together
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    });
+
+    // counting
+        // Counts how many times the same message was logged
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
+  
+    // timing
+        // Returns how long it took to perform the given actions  
+        //    ( .time and .timeEnd must have the same name )
+    console.time('fetching data');
+    fetch('https://api.github.com/users/wesbos')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+      });
+
+  </script>
+</body>
+</html>
