@@ -36,3 +36,7 @@ It is more fun with a sound going off as you press the keys.
 
 ## Day 10 - Hold Shift and Checkboxes
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2010.gif?raw=true)
+
+## Day 11 - Custom Video Player
+Left slide bar: Volume  |   Right slide bar: Speed rate
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2011.gif?raw=true)
