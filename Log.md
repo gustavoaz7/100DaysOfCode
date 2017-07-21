@@ -22,7 +22,7 @@
 ## Day 05 - 14/07
 * 1 JS kata
 * JavaScript30 05 - Flex Panel Gallery
-* CWDC Sec5 (Math Game Project)  
+* CWDC Sec5 (Math Game Project) - Styling  
 **Thoughts:** Really enjoyed today's JS30 task result and started the core layout of what will become my Math Game.
 
 ## Day 06 - 15/07
@@ -33,3 +33,22 @@
 ## Day 07 - 16/07
 * 1 JS kata
 * JavaScript30 07 - Array Cardio 2
+
+## Day 08 - 17/07
+* 2 JS katas
+* JS30 08 - Fun With HTML5 Canvas
+* CWDC Sec5 (Math Game Project) - Functionalities (75%)
+
+## Day 09 - 18/07
+* 2 JS katas
+* JS30 09 - Dev Tools Domination
+* CWDC Sec5 (Math Game Project) - Completed!  
+**Thoughts:** This is a big day. Started by solving more challenging codewars katas and ranked up after that (5 kyu) :)  
+I also finished my Math Game and restyled it completely! It was extremelly rewarding to see it working 100%.
+It takes time to make your project work properly. But it takes forever to style it! 
+
+## Day 10 - 19/07
+* 2 JS katas
+* JS30 10 - Hold Shift and Checkboxes
+* [Python for Everybody Specialization](https://www.coursera.org/specializations/python) Course 1 - Weeks 1/2/3  
+**Thoughts:** Today I am starting my Python journey! I will be running through the first few modules really quickly as it concerns about basic coding knowledge. All I need for now is to learn its 'vocabulary'. For example: `function` is now `def` ; `else if` is `elif` ; `.length` is `len()` and so on..
