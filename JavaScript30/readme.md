@@ -40,3 +40,6 @@ It is more fun with a sound going off as you press the keys.
 ## Day 11 - Custom Video Player
 Left slide bar: Volume  |   Right slide bar: Speed rate
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2011.gif?raw=true)
+
+## Day 12 - Key Sequence Detection
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2012.gif?raw=true)
