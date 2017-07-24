@@ -55,3 +55,8 @@ It takes time to make your project work properly. But it takes forever to style 
 
 ## Day 11 - 20/07
 *  1 JS kata
+* JS30 11 - 
+
+
+## Day 12 - 21/07
+
