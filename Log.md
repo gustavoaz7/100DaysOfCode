@@ -52,3 +52,11 @@ It takes time to make your project work properly. But it takes forever to style 
 * JS30 10 - Hold Shift and Checkboxes
 * [Python for Everybody Specialization](https://www.coursera.org/specializations/python) Course 1 - Weeks 1/2/3  
 **Thoughts:** Today I am starting my Python journey! I will be running through the first few modules really quickly as it concerns about basic coding knowledge. All I need for now is to learn its 'vocabulary'. For example: `function` is now `def` ; `else if` is `elif` ; `.length` is `len()` and so on..
+
+## Day 11 - 20/07
+*  1 JS kata
+* JS30 11 - 
+
+
+## Day 12 - 21/07
+
