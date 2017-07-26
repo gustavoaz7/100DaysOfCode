@@ -17,7 +17,7 @@ It is more fun with a sound going off as you press the keys.
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2003.gif?raw=true)
 
 ## Day 04 - Array Cardio 1
-![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2004.png?raw=true)
+Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/04%20-%20Array%20Cardio%20Day%201/index-gus.html)
 
 ## Day 05 - Flex Panel Gallery
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2005.gif?raw=true)
@@ -26,13 +26,13 @@ It is more fun with a sound going off as you press the keys.
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2006.gif?raw=true)
 
 ## Day 07 - Array Cardio 2
-![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2007.png?raw=true)
+Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/07%20-%20Array%20Cardio%20Day%202/index-gus.html)
 
 ## Day 08 - Fun With HTML5 Canvas
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2008.gif?raw=true)
 
 ## Day 09 - Dev Tools Domination
-![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2009.png?raw=true)
+Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/09%20-%20Dev%20Tools%20Domination/index-gus.html)
 
 ## Day 10 - Hold Shift and Checkboxes
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2010.gif?raw=true)
@@ -43,3 +43,6 @@ Left slide bar: Volume  |   Right slide bar: Speed rate
 
 ## Day 12 - Key Sequence Detection
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2012.gif?raw=true)
+
+## Day 13 - Slide in on Scroll
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2013.gif?raw=true)
