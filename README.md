@@ -1,5 +1,5 @@
 # 100DaysOfCode
-### Code for at least an hour everyday. Share your progress. Keep coding.
+### Code for at least an hour every day. Share your progress. Keep coding.
 
 ## Introduction
 I am a code newbie.  
