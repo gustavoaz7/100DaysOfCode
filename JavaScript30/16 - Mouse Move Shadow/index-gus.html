@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Shadow</title>
+</head>
+<body>
+
+  <div class="hero">
+  <h1>Bipolar Shadows</h1>
+  </div>
+
+  <style>
+  html {
+  color:black;
+  font-family: sans-serif;
+  }
+  body {
+  margin: 0;
+  }
+  .hero {
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  }
+  h1 {
+  color: #222;
+  text-shadow: 10px 10px 0 rgba(0,0,0,1);
+  font-size: 100px;
+  }
+  </style>
+
+<script>
+
+  const area = document.querySelector('.hero');
+  const title = area.querySelector('h1');
+  const range = 60;
+
+  function shadow (e) {
+    var x = e.offsetX;
+    var y = e.offsetY;
+    if (this !== e.target) {
+      x += e.target.offsetLeft;
+      y += e.target.offsetTop;
+    }
+
+    var xRange = Math.round((x / area.offsetWidth * range) - (range / 2));
+    var yRange = Math.round((y / area.offsetHeight * range) - (range / 2));
+
+    var opacityX = 1.3 - Math.abs(xRange) / (range / 2);
+    var opacityY = 1.3 - Math.abs(yRange) / (range / 2);
+    var opacity = (opacityX + opacityY) / 2;
+
+    title.style.textShadow = `${xRange}px ${yRange}px 0 rgba(204, 101, 101, ${opacity}), ${xRange * -1}px ${yRange * -1}px 0 rgba(90, 126, 196, ${opacity})`;
+  }
+
+  area.addEventListener('mousemove', shadow);
+
+</script>
+</body>
+</html>
