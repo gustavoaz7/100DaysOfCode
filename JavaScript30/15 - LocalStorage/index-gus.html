@@ -38,7 +38,7 @@ function addItem (e) {
   // By default, a form reloads the page and sends the data to the database
   // So we need to prevent this reload from happening
   e.preventDefault();
-  // To prevent adding an empty item
+  // To prevent adding an empty or whitespaced item
   if (this.querySelector('[name=item]').value.trim() == '') return;
   const name = this.querySelector('[name=item]').value;
   var item = {
