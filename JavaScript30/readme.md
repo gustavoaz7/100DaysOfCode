@@ -46,3 +46,15 @@ Left slide bar: Volume  |   Right slide bar: Speed rate
 
 ## Day 13 - Slide in on Scroll
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2013.gif?raw=true)
+
+## Day 14 - JavaScript References VS Copying
+Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/index-gus.html)
+
+## Day 15 - LocalStorage
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2015.gif?raw=true)
+
+## Day 16 - Mouse Move Shadow
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2016.gif?raw=true)
+
+## Day 17 - Sort Without Articles
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2017.png?raw=true)
