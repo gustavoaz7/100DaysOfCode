@@ -58,3 +58,9 @@ Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob
 
 ## Day 17 - Sort Without Articles
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2017.png?raw=true)
+
+## Day 18 - Adding Up Times With Reduce
+Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-gus.html)
+
+## Day 19 - Webcam Fun
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2019.gif)
