@@ -55,8 +55,22 @@ It takes time to make your project work properly. But it takes forever to style 
 
 ## Day 11 - 20/07
 *  1 JS kata
-* JS30 11 - 
+* JS30 11 - Custom Video Player
+* Python Course 1 - Weeks 4/5/6
 
 
 ## Day 12 - 21/07
+* 1 JS kata
+* JS30 12 - Key Sequence Detection
+* Python Course 1 - Week 7 (Completed) / Course 2 - Week 1/2
+
+## Day 13 - 22/07
+* JS Understanding the Weird Parts 2/11.5h
+* Python Course 2 - Weeks 3/4
+**Thoughts:** Away from my computer (travelling for the weekend). Kept studying on my mobile.
+
+
+## Day 14 - 23/07
+* JS Understanding the Weird Parts 3/11.5h
+* Python Course 2 - Weeks 5/6/7 (Completed)
 
