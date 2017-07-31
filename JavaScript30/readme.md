@@ -64,3 +64,6 @@ Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob
 
 ## Day 19 - Webcam Fun
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2019.gif)
+
+## Day 20 - Speech Detection
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2020.gif?raw=true)
