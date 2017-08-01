@@ -49,7 +49,10 @@ h1 {
   font-weight: 100;
   font-family: 'Pacifico', cursive;
   text-shadow:3px 3px 0 #F3C010;
+}
 
+label {
+  font-size: 1.5em;
 }
 
 .voiceinator input,
