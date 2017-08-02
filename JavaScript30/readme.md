@@ -67,3 +67,8 @@ Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob
 
 ## Day 20 - Speech Detection
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2020.gif?raw=true)
+
+## Day 21 - Geolocation
+
+## Day 22 - Follow Along Link Highlitghter
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2022.gif?raw=true)
