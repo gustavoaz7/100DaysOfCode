@@ -72,3 +72,9 @@ Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob
 
 ## Day 22 - Follow Along Link Highlitghter
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2022.gif?raw=true)
+
+## Day 23 - Speech Synthesis
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2023.gif?raw=true)
+
+## Day 24 - Sticky Nav
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2024.gif?raw=true)
