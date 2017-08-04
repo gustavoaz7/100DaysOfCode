@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Speed Scrubber</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <video class="flex" width="765" height="430" src="https://www.dropbox.com/s/f2f7ko8biahgve5/Numb%20%28Official%20Video%29%20-%20Linkin%20Park.mp4?dl=1" controls></video>
+    <div class="speed">
+      <div class="speed-bar">1.00×</div>
+    </div>
+  </div>
+
+<script>
+
+const video = document.querySelector('video')
+const speed = document.querySelector('.speed')
+const speedBar = document.querySelector('.speed-bar')
+
+
+function handleSpeed (e) {
+	let y = e.pageY - this.offsetTop;
+	let min = 0.5, max = 3;
+	let percent = y / this.offsetHeight * 100;
+	speedBar.style.height = `${percent}%`;
+	let playRate = (max - min) * percent/100 + min;
+	video.playbackRate = playRate;
+	speedBar.textContent = `${playRate.toFixed(2)}x`;
+}
+
+speed.addEventListener('mousemove', handleSpeed)
+
+</script>
+</body>
+</html>
