@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Follow Along Nav</title>
+</head>
+<body>
+  <nav class="mainNav">
+    <div class="dropdownBackground">
+      <span class="arrow"></span>
+    </div>
+
+    <ul class="cool">
+      <li>
+        <a href="#">About Me</a>
+        <div class="dropdown dropdown1">
+          <div class="bio">
+            <img src="https://pbs.twimg.com/profile_images/875881381968175105/3M0GN6aY_400x400.jpg">
+            <p>Hi! I'm Gustavoaz7, a JavaScript and Python student diving into the coding world! I said 'Challenge Accepted!' to #100DaysOfCode challenge and this is the 24th project from JavaScript30 series by @Wesbos</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="#">Studies</a>
+        <ul class="dropdown courses">
+          <li>
+            <span class="code">JS30 -</span>
+            <a href="https://javascript30.com/">JavaScript30</a>
+          </li>
+          <li>
+            <span class="code">JS UWP -</span>
+            <a href="http://learnwebdev.net">JavaScript: Understanding the Werid Parts</a>
+          </li>
+          <li>
+            <span class="code">PY4E -</span>
+            <a href="https://www.coursera.org/specializations/python">Coursera - Python for Everybody Specialization</a>
+          </li>
+          <li>
+            <span class="code">FCC -</span>
+            <a href="https://freecodecamp.com">Free Code Camp</a>
+          </li>
+          <li>
+            <span class="code">CWDC -</span>
+            <a href="https://www.udemy.com/thecompletewebdeveloper/">The Complete Web Development Course</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Social</a>
+        <ul class="dropdown dropdown3">
+          <li><a class="button" href="http://twitter.com/Gustavoaz7">Twiter</a></li>
+          <li><a class="button" href="https://www.facebook.com/gustavo.azevedosb">Facebook</a></li>
+          <li><a class="button" href="https://github.com/gustavoaz7">GitHub</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+<style>
+  html {
+    box-sizing: border-box;
+    font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Open Sans', 'Sans-serif';
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-18.png') center no-repeat;
+    background-size: 120% 120%;
+  }
+
+  h2 {
+    margin-top: 0;
+    padding-top: .8em;
+  }
+
+  nav {
+    position: relative;
+    perspective: 600px;
+  }
+
+  .cool > li > a {
+    color: #D1E1FF;
+    text-decoration: none;
+    font-size: 20px;
+    background: rgba(0,0,0,0.2);
+    padding:10px 20px;
+    display: inline-block;
+    margin:20px;
+    border-radius:5px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cool > li {
+    position: relative;
+    display:flex;
+    justify-content: center;
+  }
+
+  .dropdown {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    padding:20px;
+    top:-20px;
+    border-radius:2px;
+    transition: all 0.5s;
+    transform: translateY(100px);
+    will-change: opacity;
+    display: none;
+  }
+
+  .trigger-enter .dropdown {
+    display: block;
+  }
+
+  .trigger-enter-active .dropdown {
+    opacity: 1;
+  }
+
+
+
+  .dropdownBackground {
+    width:100px;
+    height:100px;
+    position: absolute;
+    background: rgba(234, 241, 255, 0.95);
+    border-radius: 4px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+    transition:all 0.3s, opacity 0.1s, transform 0.2s;
+    transform-origin: 50% 0;
+    display: flex;
+    justify-content: center;
+    opacity:0;
+  }
+
+  .dropdownBackground.open {
+    opacity: 1;
+  }
+
+  .arrow {
+    position: absolute;
+    width:20px;
+    height:20px;
+    display: block;
+    background: rgba(234, 241, 255, 0.98);
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .bio {
+    min-width:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7;
+    font-size: 1.1em;
+  }
+
+  .bio img {
+    float:left;
+    margin-right:20px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 2px;
+  }
+
+  .courses {
+    min-width:300px;
+      font-size: 1.1em; 
+  }
+
+  .courses li {
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+
+  .dropdown a {
+    text-decoration: none;
+    color: rgb(17, 62, 147);
+    font-weight: 500;
+  }
+
+  a.button {
+    background:black;
+    display: block;
+    padding:10px;
+    color:white;
+    margin-bottom: 10px;
+  }
+
+
+  /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
+  .button[href*=twitter] { background: #019FE9; }
+  .button[href*=facebook] { background: #3B5998; }
+  .button[href*=courses] { background: #ffc600; }
+
+</style>
+
+<script>
+
+const nav = document.querySelector('.mainNav')
+const dropdownBG = document.querySelector('.dropdownBackground')
+const li = document.querySelectorAll('.cool > li')
+
+function onEnter (e) {
+  this.classList.add('trigger-enter')
+  // classList.CONTAINS!!  not  .includes!!
+  // For this kind of function: if the first statement is true, the second runs.  If the first is false, nothing happens
+  setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active'), 150)
+  dropdownBG.classList.add('open')
+
+  const dropdown = this.querySelector('.dropdown')
+  const dropCoords = dropdown.getBoundingClientRect();
+  const navCoords = nav.getBoundingClientRect();
+  dropdownBG.style.width = `${dropCoords.width}px`;
+  dropdownBG.style.height = `${dropCoords.height}px`;
+  dropdownBG.style.transform = `translate(${dropCoords.left - navCoords.left}px, ${dropCoords.top - navCoords.top}px)`;
+
+}
+
+function onLeave (e) {
+  this.classList.remove('trigger-enter', 'trigger-enter-active')
+  dropdownBG.classList.remove('open')
+}
+
+li.forEach(l => l.addEventListener('mouseenter', onEnter))
+li.forEach(l => l.addEventListener('mouseleave', onLeave))
+
+</script>
+
+</body>
+</html>
