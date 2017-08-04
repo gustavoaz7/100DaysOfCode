@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding JavaScript's Capture</title>
+</head>
+<body class="bod">
+
+  <div class="one">
+    <div class="two">
+      <div class="three">
+      </div>
+    </div>
+  </div>
+
+<style>
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after { box-sizing: inherit; }
+
+  div {
+    width:100%;
+    padding:100px;
+  }
+
+  .one {
+    background: thistle;
+  }
+
+  .two {
+    background:mistyrose;
+  }
+
+  .three {
+    background:coral;
+  }
+</style>
+
+<button></button>
+<script>
+
+const divs = document.querySelectorAll('div');
+
+function textLog (e) {
+  console.log(this.classList.value)
+  // .stopPropagation() - Stops the `bubbling` effect. It will on a single element (no matter how nested it might be)
+  e.stopPropagation();
+} 
+
+divs.forEach(div => div.addEventListener('click', textLog, {
+  // Capture: true - means that the function will run on the capture down (from the most outter element triggered by the EventListener to the most inner)
+  //capture: true
+  // Once: true - means that the event will only be listened once. After that the function associated won't be called again
+  //once: true
+}))
+
+</script>
+</body>
+</html>
