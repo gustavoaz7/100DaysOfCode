@@ -78,3 +78,9 @@ Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob
 
 ## Day 24 - Sticky Nav
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2024.gif?raw=true)
+
+## Day 25 - Event Capture, Propagation, Bubbling and Oce
+Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/index-gus.html)
+
+## Day 26 - Stripe Follow Along Nav
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2026.gif?raw=true)
