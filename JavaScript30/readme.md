@@ -90,3 +90,9 @@ Nothing to display. [Code here](https://github.com/gustavoaz7/100DaysOfCode/blob
 
 ## Day 28 - Video Speed Controller
 ![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2028.gif?raw=true)
+
+## Day 29 - Countdown Timer
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2029.gif?raw=true)
+
+## Day 30 - Whack A Mole Game
+![](https://github.com/gustavoaz7/100DaysOfCode/blob/master/JavaScript30/Images%20and%20gifs/js30%2030.gif?raw=true)
