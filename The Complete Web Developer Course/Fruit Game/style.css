@@ -30,6 +30,12 @@ http://img3.wikia.nocookie.net/__cb39/fruitninja/images/5/50/Wiki-background
 	margin: 0 auto;
 	margin-top: 5vh;
 	position: relative;
+	overflow: hidden;
+}
+
+.fruit {
+	display:;
+	position: absolute;
 }
 
 #score {
