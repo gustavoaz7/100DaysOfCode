@@ -9,15 +9,13 @@
 </head>
 <body>
 	<div id="game">
-	<img class="fruit" src="https://vignette2.wikia.nocookie.net/fruitninja/images/0/07/Pear.svg" alt="">
+	<img class="fruit" src="" alt="">
 		<div id="score">
 			<span id="scoreValue">47</span>
 			<span id="bestScore">Best:</span>
 		</div>
 		<div id="life">
-			<img src="http://icons.iconarchive.com/icons/succodesign/love-is-in-the-web/48/heart-icon.png" alt="">
-			<img src="http://icons.iconarchive.com/icons/succodesign/love-is-in-the-web/48/heart-icon.png" alt="">
-			<img src="http://icons.iconarchive.com/icons/succodesign/love-is-in-the-web/48/heart-icon.png" alt="">
+
 		</div>
 		<div id="instruction">
 			<p>Cut all fruits like a ninja!</p>
@@ -25,10 +23,11 @@
 		<div id="start">
 			<p>Start Game</p>
 		</div>
-		<div id="gameOver"> <p><bold>Game Over!</bold> <br /> Your score is: <span id="finalScore"></span></p></div>
+		<div id="gameOver"> <p><span>Game Over!</span></p>  <p>Your score is: <span id="finalScore"></span></p></div>
 	</div>
-	
+	<audio id="slicesound" src="http://soundbible.com/grab.php?id=706&type=mp3"></audio>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="script.js"></script>
 
 </body>

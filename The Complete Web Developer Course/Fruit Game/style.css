@@ -60,26 +60,22 @@ http://img3.wikia.nocookie.net/__cb39/fruitninja/images/5/50/Wiki-background
 
 #life {
 	position: absolute;
-	top: 4vh;
-	left: 2vw;
+	top: 3vh;
+	left: 4vw;
 	height: 6vh;
-	width: 12vw;
-	background-color: rgba(242, 243, 244, 0.75);
-	border-radius: 2px;
 	padding: 1vh 1vw;
-	display: flex;
 	justify-content: space-between;
 }
 
 #life img {
-	max-height: 6vh;
-	max-width: 6vh;
+	max-height: 5vh;
+	max-width: 5vh;
 	line-height: 6vh;
 	vertical-align: middle;
-	background: rgba(244, 208, 63, 0.95);
+	background: rgba(255, 0, 0, 0.25);
 	border-radius: 50%;
-	flex: 1;
-	margin: 0;
+	border: 1px solid rgba(255, 0, 0, 0.45);
+	margin: 1px;
 	padding: 0;
 }
 
@@ -111,20 +107,36 @@ http://img3.wikia.nocookie.net/__cb39/fruitninja/images/5/50/Wiki-background
 	border-bottom: 2px solid #E87E04;
 }
 
+#start.active {
+	transform: scale(0.5);
+	bottom: 0%;
+}
+
 #start:hover {
-	transform: scale(1.2);
-	
+	transform: scale(1.2);	
 }
 
 #gameOver {
 	position: absolute;
-	background-color: rgba(248, 148, 6, 1);
-	border-top: 1px solid #222;
-	border-bottom: 1px solid #222;
-	font-size: 9vh;
+	font-size: 10vh;
 	width: 100%;
 	text-align: center;
-	line-height: 15vh;
-	top: 15vh;
+	top: 25vh;
 	visibility: hidden;
+	opacity: 0.2;
+	transition: 0.5s;
+	transform: scale(0.4);
+}
+
+#gameOver.active {
+	visibility: visible;
+	transform: scale(1);
+	opacity: 1;
+}
+
+#gameOver span {
+	font-size: 15vh;
+	background: -webkit-linear-gradient( 90deg, #ff0000,#e84204, #f8a000, #fbc520);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
