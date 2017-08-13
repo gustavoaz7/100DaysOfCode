@@ -146,5 +146,34 @@ CWDC Sec6 (jQuery) 20/28
 ## Day 28 - 06/08
 * JS30 30 - Whack-A-Mole (Completed!)
 * Book Eloquent JS - up to Ch.2
+* Py4E Course 4 - Week 4
 **Thoughts:** After a long time thinking about new features and how to implement it, my final project from JS30 is completed! Now users are able to chose from three different levels for the game and select time duration of each round. Localstorage is used to store users best score on each category.
+
+## Day 29 - 07/08
+* 2 FCC Intermediate Algorithm challenges
+* JS Understanding the Weird Parts (Completed!)  
+* Py4E Course 4 - Week 5 (Course Completed!)
+
+## Day 30 - 08/08
+* 2 FCC Intermediate Algorithm challenges
+* Py4E Course 5 - Week 1
+*  CWDC Fruit Game (Styling)
+
+## Day 31 - 09/08
+* 2 FCC Intermediate Algorithm challenges
+* Py4E Course 5 - Weeks 2/3
+* Eloquent JS- up to Ch.3
+* CWDC Fruit Game (Styling + Functionalities)
+
+## Day 32 - 10/08
+* 2 FCC Intermediate Algorithm challenges + Codecademy challenge of the week
+* Py4E Course 5 - Week 4
+* Eloquent JS - up to Ch.4
+
+## Day 33 - 11/08
+* 2 FCC Intermediate Algorithm challenges
+* Py4E Course 5 - Week 5
+* Eloquent JS - up to Ch.5
+* CWDC Fruit Game (Functionalities)
+**Thoughts:** Quick note:  Completing daily Codewars challenges have definitely built me stronger. Many FCC intermediate algorithm challenges looks like beginner level now. Waiting for the advanced ones!
 
