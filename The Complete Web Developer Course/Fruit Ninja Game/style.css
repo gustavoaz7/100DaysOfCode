@@ -134,7 +134,7 @@ http://img3.wikia.nocookie.net/__cb39/fruitninja/images/5/50/Wiki-background
 	opacity: 1;
 }
 
-#gameOver span {
+.go {
 	font-size: 15vh;
 	background: -webkit-linear-gradient( 90deg, #ff0000,#e84204, #f8a000, #fbc520);
 	-webkit-background-clip: text;
