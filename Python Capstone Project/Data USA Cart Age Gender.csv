@@ -1,0 +1,512 @@
+soc_name,soc_sumlevel,soc_id,avg_age_sex1_2014,avg_age_sex1_2015,avg_age_sex2_2014,avg_age_sex2_2015
+"Management occupations",2,110000,45.9703,46.1026,44.245,44.2154
+"Management, business, & financial occupations",1,110000-130000,45.3114,45.383,43.6999,43.6869
+"Management, business, science, & arts occupations",0,110000-290000,43.9074,43.9687,42.8285,42.7544
+"General & operations managers",3,111021,44.7664,44.698,41.9116,42.4024
+"Chief executives & legislators",3,1110XX,51.4446,52.0155,50.2302,50.1734
+"Advertising & promotions managers",3,112011,40.5071,41.849,36.7144,35.612
+"Marketing & sales managers",3,112020,43.5289,44.0255,39.894,39.7608
+"Public relations & fundraising managers",3,112031,44.5703,42.8475,42.5309,42.3318
+"Administrative services managers",3,113011,49.0843,48.7546,45.1626,47.0359
+"Computer & information systems managers",3,113021,44.6145,44.8569,45.3476,45.0993
+"Financial managers",3,113031,43.2401,43.7432,43.9652,44.2074
+"Industrial production managers",3,113051,46.2942,46.8778,44.302,45.8754
+"Purchasing managers",3,113061,47.4913,47.4262,45.4501,45.6917
+"Transportation, storage, & distribution managers",3,113071,43.8426,44.8805,43.8756,43.4273
+"Compensation & benefits managers",3,113111,50.7708,44.318,46.5083,47.1755
+"Human resources managers",3,113121,44.3317,43.6943,44.9936,44.7496
+"Training & development managers",3,113131,41.2603,41.8488,43.2499,42.7294
+"Farmers, ranchers, & other agricultural managers",3,119013,47.1488,47.848,47.0626,47.1455
+"Construction managers",3,119021,45.8683,45.5724,43.9602,43.3574
+"Education administrators",3,119030,45.9735,46.5454,46.4219,46.3527
+"Architectural & engineering managers",3,119041,47.9431,48.1412,45.8504,45.4196
+"Food service managers",3,119051,39.3885,38.9064,37.4449,38.0522
+"Gaming managers",3,119071,42.9063,43.4061,46.7092,44.7458
+"Lodging managers",3,119081,44.2277,43.4607,40.8731,41.9198
+"Medical & health services managers",3,119111,47.5521,47.3438,46.6429,46.7101
+"Natural sciences managers",3,119121,43.849,47.192,38.9938,41.3398
+"Property, real estate, & community association managers",3,119141,48.4919,48.4386,46.0027,45.8243
+"Social & community service managers",3,119151,46.4185,47.2622,45.9136,45.8018
+"Emergency management directors",3,119161,41.6699,48.5375,38.568,45.7635
+"Miscellaneous managers",3,119XXX,46.4845,46.5098,44.615,44.177
+"Business & financial operations occupations",2,130000,43.5041,43.3719,42.8835,42.8768
+"Agents & business managers of artists, performers, & athletes",3,131011,38.5326,42.0342,39.5152,37.8844
+"Buyers & purchasing agents, farm products",3,131021,43.294,45.1133,48.6507,40.877
+"Wholesale & retail buyers, except farm products",3,131022,42.2482,42.3358,43.7593,41.7138
+"Purchasing agents, except wholesale, retail, & farm products",3,131023,46.7565,45.3842,46.419,45.9755
+"Claims adjusters, appraisers, examiners, & investigators",3,131030,42.4422,43.2198,42.6376,43.569
+"Compliance officers",3,131041,47.1498,45.8328,43.9184,43.507
+"Cost estimators",3,131051,47.4296,48.2114,42.8503,42.9694
+"Human resources workers",3,131070,40.441,40.9192,41.5053,41.0421
+"Logisticians",3,131081,41.291,39.2851,40.8792,39.3701
+"Management analysts",3,131111,45.2999,44.8807,43.8356,43.4472
+"Meeting, convention, & event planners",3,131121,35.2793,37.2813,37.2992,37.3553
+"Fundraisers",3,131131,43.6117,41.66,40.7304,39.6773
+"Compensation, benefits, & job analysis specialists",3,131141,43.2557,44.9413,44.8465,44.7979
+"Training & development specialists",3,131151,43.9438,44.3459,42.7427,43.4169
+"Market research analysts & marketing specialists",3,131161,41.0297,40.5485,37.3631,37.3507
+"Business operations specialists, all other",3,131199,43.1211,43.5861,42.7046,42.8305
+"Accountants & auditors",3,132011,43.5205,43.599,43.7597,44.1
+"Appraisers & assessors of real estate",3,132021,49.8297,50.5441,48.7849,47.7472
+"Budget analysts",3,132031,43.3347,42.7198,45.0847,45.8481
+"Credit analysts",3,132041,39.0176,40.8548,40.6413,42.7218
+"Financial analysts",3,132051,37.6882,37.1615,40.8138,40.75
+"Personal financial advisors",3,132052,44.2288,44.5389,42.1073,41.8444
+"Insurance underwriters",3,132053,41.2935,41.2717,44.4131,44.5029
+"Financial examiners",3,132061,44.4514,41.4276,43.1097,45.9885
+"Credit counselors & loan officers",3,132070,42.5923,42.3143,43.3766,43.1571
+"Tax examiners & collectors, & revenue agents",3,132081,48.6347,47.9043,46.6132,48.4352
+"Tax preparers",3,132082,47.7553,47.5188,46.6974,47.5867
+"Other financial specialists",3,132099,44.3225,43.5237,42.8113,43.4691
+"Computer & mathematical occupations",2,150000,40.5679,40.4326,41.8637,42.3272
+"Computer, engineering, & science occupations",1,150000-190000,41.9675,41.825,41.0289,41.1108
+"Computer & information research scientists",3,151111,42.48,39.2466,47.066,41.059
+"Computer systems analysts",3,151121,41.8467,41.4481,42.0296,43.1254
+"Information security analysts",3,151122,40.9376,40.9329,45.5838,46.4616
+"Computer programmers",3,151131,42.5247,41.7177,44.2677,44.6981
+"Web developers",3,151134,35.4126,35.5341,36.5277,37.5342
+"Software developers, applications & systems software",3,15113X,39.7913,39.7113,40.9043,41.3286
+"Database administrators",3,151141,42.4292,41.9975,43.5814,43.7286
+"Network & computer systems administrators",3,151142,41.1544,41.2709,44.3871,44.2139
+"Computer network architects",3,151143,42.5606,42.5145,41.9582,41.3843
+"Computer support specialists",3,151150,39.2934,39.6958,41.2525,42.0895
+"Other Computer Occupations",3,151199,40.4593,40.4615,43.0381,42.9271
+"Actuaries",3,152011,38.9816,38.1788,38.36,38.0484
+"Operations research analysts",3,152031,44.4903,45.4595,42.8322,43.2241
+"Miscellaneous mathematical science occupations, including mathematicians & statisticians",3,1520XX,40.8304,41.449,39.7964,39.4783
+"Architecture & engineering occupations",2,170000,43.7774,43.7196,40.2596,40.0666
+"Architects, except naval",3,171010,44.9392,45.7146,40.2495,40.4101
+"Surveyors, cartographers, & photogrammetrists",3,171020,40.8398,42.444,44.1619,39.3838
+"Aerospace engineers",3,172011,45.5691,44.1348,39.0699,40.376
+"Chemical engineers",3,172041,43.4553,43.1406,35.4712,36.7885
+"Civil engineers",3,172051,43.6213,43.0822,37.5616,38.6532
+"Computer hardware engineers",3,172061,42.5115,43.333,40.1069,41.0966
+"Electrical & electronics engineers",3,172070,45.3482,44.615,40.5154,40.7851
+"Environmental engineers",3,172081,44.5363,45.2531,39.9397,37.525
+"Biomedical & agricultural engineers",3,1720XX,41.9114,42.0472,34.3402,36.4764
+"Industrial engineers, including health & safety",3,172110,44.0158,43.8785,41.1424,40.738
+"Marine engineers & naval architects",3,172121,43.4501,42.0622,33.8924,37.1589
+"Materials engineers",3,172131,43.1703,41.6131,39.5927,39.7856
+"Mechanical engineers",3,172141,41.7633,42.5702,40.6636,39.1
+"Petroleum, mining & geological engineers, including mining safety engineers",3,1721XX,41.4684,38.8951,33.9619,35.3623
+"Miscellaneous engineers, including nuclear engineers",3,1721YY,44.6065,44.5595,40.1004,38.5604
+"Drafters",3,173010,42.1893,42.2618,39.9763,42.5906
+"Engineering technicians, except drafters",3,173020,43.6257,44.1366,42.5517,42.2695
+"Surveying & mapping technicians",3,173031,40.8345,41.6041,42.7132,43.1785
+"Life, physical, & social science occupations",2,190000,42.494,42.0726,39.9826,39.5582
+"Agricultural & food scientists",3,191010,43.5719,43.8541,39.8041,36.9681
+"Biological scientists",3,191020,42.1735,41.3853,40.5139,39.9389
+"Conservation scientists & foresters",3,191030,43.8983,43.8686,41.6759,37.2471
+"Medical scientists, & life scientists, all other",3,1910XX,42.9843,43.6703,41.023,40.2873
+"Astronomers & physicists",3,192010,44.1294,46.6165,45.6816,38.3017
+"Atmospheric & space scientists",3,192021,41.8328,39.9762,39.1783,34.0807
+"Chemists & materials scientists",3,192030,43.7664,43.1383,38.9652,40.2583
+"Environmental scientists & geoscientists",3,192040,45.8181,45.2725,38.6068,39.4823
+"Other Physical Scientists",3,192099,41.4152,40.8242,38.4007,39.2304
+"Economists",3,193011,42.674,43.9673,40.4451,39.7939
+"Psychologists",3,193030,51.6309,49.9306,45.1746,45.2678
+"Urban & regional planners",3,193051,43.6702,43.893,42.8366,39.7092
+"Miscellaneous social scientists, including survey researchers & sociologists",3,1930XX,41.6661,41.8816,37.4542,37.8467
+"Agricultural & food science technicians",3,194011,40.243,41.2613,41.9,39.6647
+"Biological technicians",3,194021,42.6284,40.9776,41.2352,39.2409
+"Chemical technicians",3,194031,44.5518,43.7253,40.8214,40.1531
+"Geological & petroleum technicians, & nuclear technicians",3,1940XX,43.1632,43.9017,47.7174,41.738
+"Miscellaneous life, physical, & social science technicians, including social science research assistants",3,1940YY,36.8849,36.0209,35.1039,33.951
+"Community & Social Service Occupations",2,210000,45.4673,46.5043,42.8526,42.6421
+"Education, legal, community service, arts, & media occupations",1,210000-270000,43.0666,43.4355,42.4234,42.297
+"Counselors",3,211010,41.8869,42.1957,41.9937,41.5732
+"Social workers",3,211020,43.2093,44.0687,42.3147,42.3508
+"Probation officers & correctional treatment specialists",3,211092,41.4679,42.5617,41.4651,41.5025
+"Social & human service assistants",3,211093,40.3919,41.6253,42.7035,42.2744
+"Miscellaneous community & social service specialists, including health educators & community health workers",3,21109X,42.6856,43.0441,41.9303,40.8587
+"Clergy",3,212011,50.2477,51.7563,48.8229,50.3969
+"Directors, religious activities & education",3,212021,46.8262,47.6199,47.1935,46.4282
+"Religious workers, all other",3,212099,43.4234,46.8573,48.2354,47.1731
+"Legal Occupations",2,230000,46.9236,47.2786,43.2046,43.0814
+"Judicial law clerks",3,231012,33.4374,34.3533,35.7747,38.6918
+"Lawyers, & judges, magistrates, & other judicial workers",3,2310XX,48.3005,48.8813,42.6512,42.5797
+"Paralegals & legal assistants",3,232011,38.3601,38.1528,43.498,43.3763
+"Miscellaneous legal support workers",3,232090,41.846,42.6964,45.024,44.2838
+"Education, Training, & Library Occupations",2,250000,42.6413,42.7455,42.7368,42.6518
+"Postsecondary teachers",3,251000,45.4288,45.1772,43.3612,43.8706
+"Preschool & kindergarten teachers",3,252010,37.7852,34.6582,39.3713,39.0978
+"Elementary & middle school teachers",3,252020,42.8722,43.0965,43.1774,42.9276
+"Secondary school teachers",3,252030,42.2899,42.7477,42.686,42.2802
+"Special education teachers",3,252050,41.5831,41.445,43.7566,43.3314
+"Other teachers & instructors",3,253000,38.591,38.6778,38.3992,39.3027
+"Archivists, curators, & museum technicians",3,254010,44.8641,46.7552,45.0571,41.2048
+"Librarians",3,254021,44.9804,45.011,48.0188,47.3892
+"Library technicians",3,254031,34.6949,32.957,40.9296,41.703
+"Teacher assistants",3,259041,37.0531,36.8426,43.9459,43.9091
+"Other education, training, & library workers",3,2590XX,43.2578,41.696,43.067,45.1863
+"Arts, design, entertainment, sports, & media occupations",2,270000,40.065,40.5513,39.4443,39.2653
+"Artists & related workers",3,271010,41.7328,40.9113,41.5071,40.7715
+"Designers",3,271020,40.7625,41.3031,39.8817,39.6734
+"Actors",3,272011,40.2454,37.5395,37.3743,34.8982
+"Producers & directors",3,272012,40.5867,40.8636,38.7874,39.0602
+"Athletes, coaches, umpires, & related workers",3,272020,34.9003,35.2926,31.3097,30.0024
+"Dancers & choreographers",3,272030,34.3874,27.3153,27.2079,27.4234
+"Musicians, singers, & related workers",3,272040,41.6407,42.594,52.0948,52.4572
+"Entertainers & performers, sports & related workers, all other",3,272099,39.4355,38.2255,34.0234,32.3757
+"Announcers",3,273010,40.9275,42.8481,39.1522,40.2371
+"News analysts, reporters & correspondents",3,273020,41.9739,41.952,37.9749,37.5429
+"Public relations specialists",3,273031,43.107,42.0457,38.2676,38.6933
+"Editors",3,273041,41.1386,42.6178,42.0281,41.4458
+"Technical writers",3,273042,49.2885,46.7669,43.7721,42.8614
+"Writers & authors",3,273043,43.4885,43.9844,41.7937,41.5344
+"Miscellaneous media & communication workers",3,273090,40.2937,39.6101,41.0871,41.4094
+"Photographers",3,274021,39.0124,41.9565,34.6637,35.7496
+"Television, video, & motion picture camera operators & editors",3,274030,36.2616,37.7432,36.3667,30.8711
+"Broadcast & sound engineering technicians & radio operators, & media & communication equipment workers, all other",3,2740XX,38.2821,38.3036,35.2519,38.2804
+"Healthcare practitioners & technical occupations",2,290000,43.8834,43.6493,42.736,42.5754
+"Chiropractors",3,291011,44.9605,44.8359,41.6526,40.6188
+"Dentists",3,291020,50.0021,49.9571,41.7201,42.0145
+"Dietitians & nutritionists",3,291031,40.7233,38.2702,43.8463,42.5371
+"Optometrists",3,291041,51.6076,48.7297,41.5117,40.3406
+"Pharmacists",3,291051,44.9088,44.2289,39.8567,40.2071
+"Physicians & surgeons",3,291060,49.1635,48.8806,42.6048,42.7585
+"Physician assistants",3,291071,45.6914,42.6954,37.6407,37.7903
+"Podiatrists",3,291081,49.1635,52.0919,42.8611,42.2729
+"Occupational therapists",3,291122,39.8431,38.4324,41.1213,41.1035
+"Physical therapists",3,291123,40.9848,40.2695,41.0961,40.8817
+"Radiation therapists",3,291124,43.5602,45.8089,41.4187,40.476
+"Recreational therapists",3,291125,48.7209,38.4256,43.8955,42.5978
+"Respiratory therapists",3,291126,45.1899,46.2579,41.8393,42.6917
+"Speechlanguage pathologists",3,291127,41.7337,43.4318,41.1817,41.4042
+"Other therapists, including exercise physiologists",3,29112X,42.4248,41.7003,39.5978,39.6103
+"Veterinarians",3,291131,49.6082,49.8442,39.8002,39.938
+"Registered nurses",3,291141,42.7333,42.2051,44.3835,44.1558
+"Nurse anesthetists",3,291151,47.4991,43.5295,45.2887,43.4211
+"Audiologists",3,291181,46.2053,52.3136,42.2146,43.1511
+"Health diagnosing & treating practitioners, all other",3,291199,45.5115,46.6069,46.1234,45.9328
+"Nurse practitioners & nurse midwives",3,2911XX,43.4593,45.388,45.7597,45.4491
+"Clinical laboratory technologists & technicians",3,292010,40.9283,41.4947,42.8003,42.7676
+"Dental hygienists",3,292021,40.7498,42.9313,42.4425,43.1785
+"Diagnostic related technologists & technicians",3,292030,42.6667,42.5482,42.113,41.1503
+"Emergency medical technicians & paramedics",3,292041,35.7112,35.7654,35.4544,35.0246
+"Health practitioner support technologists & technicians",3,292050,36.946,35.0559,36.7477,36.4949
+"Licensed practical & licensed vocational nurses",3,292061,39.4946,38.9796,43.4094,43.2767
+"Medical records & health information technicians",3,292071,40.7426,39.6493,44.6903,45.8253
+"Opticians, dispensing",3,292081,47.9718,49.4826,42.6746,42.4751
+"Miscellaneous health technologists & technicians",3,292090,41.5366,40.9819,42.2342,41.0772
+"Other healthcare practitioners & technical Occupations",3,299000,42.7339,42.7892,38.8953,39.9738
+"Healthcare Support Occupations",2,310000,37.6641,37.4349,39.403,39.3458
+"Service Occupations",0,310000-390000,37.603,37.5621,38.2408,38.2721
+"Nursing, psychiatric, & home health aides",3,311010,38.7534,38.3012,40.3346,40.5443
+"Occupational therapy assistants & aides",3,312010,39.3086,38.0941,41.3115,40.2488
+"Physical therapist assistants & aides",3,312020,36.4323,35.8822,38.5654,38.2744
+"Massage therapists",3,319011,40.4325,38.815,40.1295,39.9879
+"Dental assistants",3,319091,35.9341,33.7986,36.7977,37.3529
+"Medical assistants",3,319092,35.6036,33.8426,37.2037,36.5204
+"Medical transcriptionists",3,319094,33.4856,35.6081,49.7323,49.1966
+"Pharmacy aides",3,319095,32.3276,35.2451,36.8952,36.431
+"Veterinary assistants & laboratory animal caretakers",3,319096,32.6322,36.9455,32.1051,30.5317
+"Phlebotomists",3,319097,34.7671,35.9197,37.8873,38.5502
+"Healthcare support workers, all other, including medical equipment preparers",3,31909X,35.9978,38.6132,40.2317,39.3469
+"Protective service occupations",2,330000,40.8481,40.8687,39.6084,39.3318
+"Firstline supervisors of correctional officers",3,331011,45.6055,44.8547,44.9305,46.728
+"Firstline supervisors of police & detectives",3,331012,45.8985,46.0593,45.9085,46.6829
+"Firstline supervisors of fire fighting & prevention workers",3,331021,47.1719,46.8653,46.6075,46.6902
+"Firstline supervisors of protective service workers, all other",3,331099,46.1505,46.546,48.3049,45.6229
+"Firefighters",3,332011,38.4966,38.6348,35.5662,38.5761
+"Fire inspectors",3,332020,47.6249,44.8315,41.6162,37.8956
+"Bailiffs, correctional officers, & jailers",3,333010,40.7487,40.0999,40.3749,39.8002
+"Detectives & criminal investigators",3,333021,43.5012,43.7325,40.7077,42.9585
+"Police officers",3,333050,39.3014,39.7201,38.97,39.0332
+"Miscellaneous law enforcement workers",3,3330XX,44.634,40.6284,45.0888,41.9052
+"Animal control workers",3,339011,41.2466,43.2315,42.1445,38.9585
+"Private detectives & investigators",3,339021,44.0975,45.4818,42.2356,42.8391
+"Security guards & gaming surveillance officers",3,339030,42.0775,41.8808,40.6455,39.8574
+"Crossing guards",3,339091,53.2818,53.7594,56.8114,52.8996
+"Transportation security screeners",3,339093,45.2473,43.4279,42.3456,40.0588
+"Lifeguards & other recreational, & all other protective service workers",3,33909X,24.1479,24.4997,24.3582,22.516
+"Food Preparation & Serving Related Occupations",2,350000,31.4378,31.4304,33.8451,33.8135
+"Chefs & head cooks",3,351011,38.4193,38.5267,40.7555,39.4972
+"Firstline supervisors of food preparation & serving workers",3,351012,35.1629,34.9838,36.8831,37.3419
+"Cooks",3,352010,31.8178,31.7399,40.5512,39.9807
+"Food preparation workers",3,352021,28.9455,29.0275,34.1332,33.5437
+"Bartenders",3,353011,34.8653,35.5337,33.9896,33.4297
+"Combined food preparation & serving workers, including fast food",3,353021,28.5395,27.3782,33.3486,33.7657
+"Counter attendants, cafeteria, food concession, & coffee shop",3,353022,23.641,24.4047,24.7098,25.6004
+"Waiters & waitresses",3,353031,28.589,29.0695,29.9993,30.1177
+"Food servers, nonrestaurant",3,353041,34.4436,32.5267,38.7498,37.4962
+"Dishwashers",3,359021,32.3352,32.7543,39.2308,38.8719
+"Hosts & hostesses, restaurant, lounge, & coffee shop",3,359031,25.4329,24.8232,24.4423,25.2777
+"Miscellaneous food preparation & serving related workers, including dining room & cafeteria attendants & bartender helpers",3,3590XX,28.2821,27.6949,40.3577,40.6129
+"Building & Grounds Cleaning & Maintenance Occupations",2,370000,42.3448,42.7322,44.2718,44.4418
+"Firstline supervisors of housekeeping & janitorial workers",3,371011,46.884,46.2574,44.7343,45.4176
+"Firstline supervisors of landscaping, lawn service, & groundskeeping workers",3,371012,41.8183,41.421,48.8235,45.8923
+"Maids & housekeeping cleaners",3,372012,43.4479,43.942,43.8019,43.7373
+"Janitors & building cleaners",3,37201X,44.5742,44.8034,45.1015,45.5103
+"Pest control workers",3,372021,39.937,41.8192,40.1887,47.7591
+"Grounds maintenance workers",3,373010,38.0501,38.8597,41.276,41.3501
+"Personal Care & Service Occupations",2,390000,38.286,38.0438,39.5518,39.7041
+"Firstline supervisors of gaming workers",3,391010,44.7789,43.7612,44.2736,43.9021
+"Firstline supervisors of personal service workers",3,391021,44.5985,43.4564,40.6067,39.2595
+"Animal trainers",3,392011,39.3402,39.3859,40.2713,35.7912
+"Nonfarm animal caretakers",3,392021,34.674,34.9294,33.048,32.3758
+"Gaming services workers",3,393010,40.8811,41.9274,42.632,42.5631
+"Motion picture projectionists",3,393021,26.4063,34.4397,31.6897,31.9738
+"Ushers, lobby attendants, & ticket takers",3,393031,35.4634,34.9241,38.6145,39.9768
+"Miscellaneous entertainment attendants & related workers",3,393090,35.568,34.0008,33.5659,31.3737
+"Morticians, undertakers, & funeral directors",3,394031,50.4873,48.9775,43.7347,45.7984
+"Embalmers & funeral attendants",3,3940XX,56.596,52.1692,49.4776,51.0781
+"Barbers",3,395011,41.1161,40.1691,42.2749,43.2683
+"Hairdressers, hairstylists, & cosmetologists",3,395012,42.9973,42.8639,38.513,38.6174
+"Miscellaneous personal appearance workers",3,395090,38.1313,39.3267,38.9837,39.5637
+"Baggage porters, bellhops, & concierges",3,396010,40.9694,40.0937,46.1723,44.2277
+"Tour & travel guides",3,397010,39.8914,39.55,37.2199,34.0263
+"Childcare workers",3,399011,34.4176,33.0079,37.4322,36.9931
+"Personal care aides",3,399021,40.9001,41.0993,43.8007,44.402
+"Recreation & fitness workers",3,399030,34.021,34.0373,38.6863,39.3074
+"Residential advisors",3,399041,27.2588,25.62,31.1202,30.391
+"Personal care & service workers, all other ",3,399099,33.8616,36.2998,36.9664,41.5337
+"Sales & related occupations",1,410000,40.8783,40.9348,37.8766,37.815
+"Sales & Office Occupations",0,410000-430000,40.0617,40.0104,41.3535,41.2755
+"Firstline supervisors of retail sales workers",3,411011,41.8685,41.8969,40.0035,40.2904
+"Firstline supervisors of nonretail sales workers",3,411012,45.7539,46.0581,44.546,43.973
+"Cashiers",3,412010,29.1037,29.3193,32.3535,32.3871
+"Counter & rental clerks",3,412021,36.9819,39.8706,38.5758,37.2328
+"Parts salespersons",3,412022,40.8863,41.7376,39.4927,39.4112
+"Retail salespersons",3,412031,38.3794,38.334,37.5211,37.1012
+"Advertising sales agents",3,413011,39.9259,42.448,40.6506,41.03
+"Insurance sales agents",3,413021,45.9974,46.0042,43.6556,42.5269
+"Securities, commodities, & financial services sales agents",3,413031,41.869,42.1591,41.599,43.113
+"Travel agents",3,413041,47.7907,44.4779,49.9123,48.5452
+"Sales representatives, services, all other",3,413099,42.2352,42.7751,40.1584,40.9501
+"Sales representatives, wholesale & manufacturing",3,414010,45.8313,45.3915,42.3749,42.8938
+"Models, demonstrators, & product promoters",3,419010,39.5514,45.0392,48.3877,47.8288
+"Real estate brokers & sales agents",3,419020,47.3261,47.9468,48.5222,47.9813
+"Sales engineers",3,419031,44.8224,44.4431,37.1245,43.8211
+"Telemarketers",3,419041,36.0848,34.2991,34.5005,34.9604
+"Doortodoor sales workers, news & street vendors, & related workers",3,419091,42.4264,42.2582,42.8581,43.3676
+"Other Sales Workers",3,419099,44.8875,43.5291,42.8056,43.2427
+"Office & Administrative Support Occupations",2,430000,38.9597,38.7784,43.2833,43.1712
+"Firstline supervisors of office & administrative support workers",3,431011,43.9873,44.0533,45.7198,45.6552
+"Switchboard operators, including answering service",3,432011,41.7799,35.0166,47.4944,47.7798
+"Telephone operators",3,432021,37.7453,37.5287,41.8626,41.6151
+"Communications equipment operators, all other",3,432099,31.8109,32.3316,36.9939,44.3975
+"Bill & account collectors",3,433011,39.3712,39.204,41.0202,40.7735
+"Billing & posting clerks",3,433021,39.3984,41.5376,43.5798,44.126
+"Bookkeeping, accounting, & auditing clerks",3,433031,41.5994,40.9085,48.7057,48.7319
+"Gaming cage workers",3,433041,43.5515,40.4936,41.2549,40.5614
+"Payroll & timekeeping clerks",3,433051,43.257,42.2782,46.9106,47.0704
+"Procurement clerks",3,433061,45.3152,42.6235,45.8891,47.9275
+"Tellers",3,433071,29.056,28.3677,37.5803,37.2843
+"Other financial clerks",3,433099,38.7352,39.2183,42.925,41.7516
+"Brokerage clerks",3,434011,36.0054,35.1246,46.3942,45.6536
+"Court, municipal, & license clerks",3,434031,47.8486,45.2247,48.3332,46.4741
+"Credit authorizers, checkers, & clerks",3,434041,40.5005,37.6028,41.76,40.6336
+"Customer service representatives",3,434051,35.9241,35.2181,37.9308,37.7339
+"Eligibility interviewers, government programs",3,434061,45.5393,41.1769,44.2463,43.7065
+"File clerks",3,434071,35.6626,35.465,41.0163,42.146
+"Hotel, motel, & resort desk clerks",3,434081,34.1217,35.3593,34.3055,34.4124
+"Interviewers, except eligibility & loan",3,434111,38.7513,39.3582,42.3867,41.6688
+"Library assistants, clerical",3,434121,33.3334,31.4579,45.4059,44.5164
+"Loan interviewers & clerks",3,434131,40.4883,36.8224,42.3102,42.5471
+"New accounts clerks",3,434141,34.8481,36.6857,42.416,42.7437
+"Human resources assistants, except payroll & timekeeping",3,434161,38.2959,39.986,42.5099,41.6628
+"Receptionists & information clerks",3,434171,34.5292,34.0207,39.2413,39.3312
+"Reservation & transportation ticket agents & travel clerks",3,434181,42.5418,41.9326,40.9263,40.9182
+"Information & record clerks, all other",3,434199,41.077,38.7816,45.0405,44.0847
+"Correspondence clerks & order clerks",3,434XXX,39.5144,39.922,43.6854,42.6691
+"Cargo & freight agents",3,435011,38.6528,40.685,41.6766,45.6871
+"Couriers & messengers",3,435021,44.8575,43.289,44.8313,45.9091
+"Dispatchers",3,435030,42.2417,41.8055,40.0969,40.8972
+"Meter readers, utilities",3,435041,40.1806,40.8536,42.7871,42.123
+"Postal service clerks",3,435051,50.9706,50.9357,50.6038,48.1276
+"Postal service mail carriers",3,435052,48.3269,47.8636,47.2899,45.363
+"Postal service mail sorters, processors, & processing machine operators",3,435053,48.0677,48.1115,47.0509,46.5983
+"Production, planning, & expediting clerks",3,435061,42.3891,42.8895,42.7449,42.6246
+"Shipping, receiving, & traffic clerks",3,435071,39.9218,39.5669,42.344,42.8838
+"Stock clerks & order fillers",3,435081,34.6273,35.2127,39.7646,39.9973
+"Weighers, measurers, checkers, & samplers, recordkeeping",3,435111,43.3492,42.9569,41.6544,42.9588
+"Secretaries & administrative assistants",3,436010,40.4298,39.6526,46.8183,46.7128
+"Computer operators",3,439011,41.6035,42.1881,45.5737,45.5164
+"Data entry keyers",3,439021,35.5803,36.7335,43.1205,42.6597
+"Word processors & typists",3,439022,35.6809,36.4835,43.8572,44.0094
+"Insurance claims & policy processing clerks",3,439041,37.9459,39.0506,42.3107,42.8246
+"Mail clerks & mail machine operators, except postal service",3,439051,44.4504,42.2503,42.977,43.3204
+"Office clerks, general",3,439061,38.7978,37.9354,43.0874,42.5595
+"Office machine operators, except computer",3,439071,41.4676,37.4955,40.595,41.8298
+"Proofreaders & copy markers",3,439081,36.8294,43.8433,45.6615,44.2461
+"Statistical assistants",3,439111,39.3301,40.5118,42.9269,45.7262
+"Miscellaneous office & administrative support workers, including desktop publishers",3,439XXX,41.7901,41.1114,42.5989,42.4047
+"Farming, Fishing, & Forestry Occupations",2,450000,38.5476,38.9205,38.5516,38.7388
+"Natural resources, construction, & maintenance occupations",0,450000-490000,40.8304,40.923,39.7701,40.0333
+"Firstline supervisors of farming, fishing, & forestry workers",3,451011,46.4834,47.7464,41.2643,43.6761
+"Agricultural inspectors",3,452011,43.6475,46.9996,44.4452,41.6742
+"Graders & sorters, agricultural products",3,452041,37.1437,37.2333,43.2613,42.902
+"Miscellaneous agricultural workers, including animal breeders",3,4520XX,37.8801,37.9529,37.1622,37.6675
+"Fishing & hunting workers",3,453000,42.6951,40.7875,39.9421,41.2043
+"Forest & conservation workers",3,454011,34.9132,38.9213,35.9602,34.2357
+"Logging workers",3,454020,39.474,41.9332,41.316,33.3041
+"Construction & Extraction Occupations",1,470000,40.4146,40.5144,40.6262,41.2868
+"Firstline supervisors of construction trades & extraction workers",3,471011,45.397,45.2506,45.8428,46.5902
+"Boilermakers",3,472011,43.294,43.5391,60.4188,41.095
+"Carpenters",3,472031,40.662,40.476,37.3019,38.9464
+"Carpet, floor, & tile installers & finishers",3,472040,38.0031,38.8899,35.5661,41.8049
+"Cement masons, concrete finishers, & terrazzo workers",3,472050,41.9945,39.3056,29.8544,36.8496
+"Construction laborers",3,472061,37.9097,38.0267,40.6494,40.8682
+"Paving, surfacing, & tamping equipment operators",3,472071,39.1294,36.5124,47.9244,82
+"Construction equipment operators except paving, surfacing, & tamping equipment operators",3,47207X,43.9031,44.1569,41.4753,41.1442
+"Drywall installers, ceiling tile installers, & tapers",3,472080,38.5853,38.2781,36.8427,33.4923
+"Electricians",3,472111,41.2203,41.3908,38.0708,41.5908
+"Glaziers",3,472121,40.5066,38.486,45.1808,40.5167
+"Insulation workers",3,472130,37.6802,38.9778,31.3048,40.3694
+"Painters & paperhangers",3,472140,40.1383,39.7902,40.5448,39.1486
+"Pipelayers, plumbers, pipefitters, & steamfitters",3,472150,40.3906,40.5311,41.7016,42.8407
+"Plasterers & stucco masons",3,472161,38.865,39.1537,39.5739,25.558
+"Roofers",3,472181,36.417,36.8393,41.0484,32.0657
+"Sheet metal workers",3,472211,40.6434,40.7864,43.6213,41.5608
+"Structural iron & steel workers",3,472221,41.1446,39.2451,35.0946,46.8202
+"Brickmasons, blockmasons, stonemasons, & reinforcing iron & rebar workers",3,472XXX,40.4036,39.7726,44.4954,45.8795
+"Helpers, construction trades",3,473010,33.7486,34.3976,35.3029,32.3212
+"Construction & building inspectors",3,474011,49.4233,50.804,44.9521,43.4192
+"Elevator installers & repairers",3,474021,44.2192,44.603,70,46.9597
+"Fence erectors",3,474031,34.9679,35.8359,25.5168,38.242
+"Hazardous materials removal workers",3,474041,40.172,41.0455,50.4647,45.0474
+"Highway maintenance workers",3,474051,44.7162,45.3335,40.145,41.9592
+"Railtrack laying & maintenance equipment operators",3,474061,43.2903,39.525,39.0724,
+"Earth drillers, except oil & gas",3,475021,39.3257,40.1967,38.0476,32.864
+"Explosives workers, ordnance handling experts, & blasters",3,475031,31.8322,31.5264,29.3754,24.3846
+"Mining machine operators",3,475040,40.2183,40.5079,39.3643,46.0501
+"Miscellaneous extraction workers, including roof bolters & helpers",3,4750XX,35.5955,37.2001,35.8276,43.387
+"Derrick, rotary drill, & service unit operators, & roustabouts, oil, gas, & mining",3,4750YY,36.4748,38.0436,45.9338,44.9944
+"Miscellaneous construction workers, including solar photovoltaic installers, septic tank servicers & sewer pipe cleaners",3,47XXXX,37.1409,38.6967,42.366,35.8776
+"Installation, maintenance, & repair occupations",1,490000,41.8707,41.8826,40.5074,40.4587
+"Firstline supervisors of mechanics, installers, & repairers",3,491011,46.9519,47.2616,46.6014,43.6112
+"Computer, automated teller, & office machine repairers",3,492011,40.2141,39.5609,41.4192,39.4644
+"Radio & telecommunications equipment installers & repairers",3,492020,42.2654,41.4058,41.1381,44.5861
+"Avionics technicians",3,492091,37.1526,37.6724,28.7875,33.1178
+"Electric motor, power tool, & related repairers",3,492092,41.8857,40.9409,48.0493,43.1079
+"Electronic equipment installers & repairers, motor vehicles",3,492096,42.0057,42.883,26.6888,38.6415
+"Electronic home entertainment equipment installers & repairers",3,492097,37.1405,37.9972,36.7351,31.8412
+"Security & fire alarm systems installers",3,492098,39.2029,39.0577,38.9119,42.1676
+"Electrical & electronics repairers, transportation equipment, & industrial & utility",3,49209X,37.6548,36.1418,35.2312,27.7023
+"Aircraft mechanics & service technicians",3,493011,40.6431,40.4175,37.7151,34.7065
+"Automotive body & related repairers",3,493021,41.1324,42.6454,38.3915,41.2829
+"Automotive glass installers & repairers",3,493022,38.7675,40.0045,45.897,40.7273
+"Automotive service technicians & mechanics",3,493023,38.8142,39.4414,37.6549,36.645
+"Bus & truck mechanics & diesel engine specialists",3,493031,41.9016,40.5686,33.8344,36.7665
+"Heavy vehicle & mobile equipment service technicians & mechanics",3,493040,42.572,42.6458,31.2273,41.345
+"Small engine mechanics",3,493050,41.9303,41.5813,35.4213,43.5867
+"Miscellaneous vehicle & mobile equipment mechanics, installers, & repairers",3,493090,33.8529,34.0266,33.7895,38.7463
+"Control & valve installers & repairers",3,499010,43.4337,44.3173,39.954,46.1436
+"Heating, air conditioning, & refrigeration mechanics & installers",3,499021,40.8703,40.6556,43.3633,42.0212
+"Home appliance repairers",3,499031,43.6587,46.2022,38.6317,44.2458
+"Maintenance workers, machinery",3,499043,44.2689,44.8512,40.5984,46.8982
+"Millwrights",3,499044,46.0067,46.2822,41.982,39.5312
+"Industrial & refractory machinery mechanics",3,49904X,45.2244,45.571,41.3081,38.1812
+"Electrical powerline installers & repairers",3,499051,39.9823,40.2901,42.7276,41.541
+"Telecommunications line installers & repairers",3,499052,39.7317,39.9318,39.6674,44.8436
+"Precision instrument & equipment repairers",3,499060,45.6886,44.1548,44.0211,39.1367
+"Maintenance & repair workers, general",3,499071,44.9512,44.7136,41.1399,40.6569
+"Coin, vending, & amusement machine servicers & repairers",3,499091,43.1413,43.3771,41.2505,45.4047
+"Locksmiths & safe repairers",3,499094,44.2239,48.615,44.6655,40.6906
+"Riggers",3,499096,35.2075,37.7891,26.9913,32.5152
+"Helpersinstallation, maintenance, & repair workers ",3,499098,34.8853,33.7226,39.1651,42.7159
+"Miscellaneous installation, maintenance, & repair workers, including wind turbine service technicians",3,4990XX,42.1798,41.7893,39.7864,42.2899
+"Production Occupations",2,510000,41.8978,41.8726,43.3337,43.2979
+"Production, Transportation, & Material Moving Occupations",0,510000-530000,42.0306,42.0084,43.0917,43.0889
+"Firstline supervisors of production & operating workers",3,511011,45.7109,45.6169,44.1948,44.7779
+"Aircraft structure, surfaces, rigging, & systems assemblers",3,512011,39.6538,40.6201,45.9593,45.5614
+"Electrical, electronics, & electromechanical assemblers",3,512020,40.4515,41.2177,46.5642,46.45
+"Engine & other machine assemblers",3,512031,40.7855,42.8873,44.2134,40.1144
+"Structural metal fabricators & fitters",3,512041,42.1081,39.5485,49.0647,38.7898
+"Miscellaneous assemblers & fabricators",3,512090,39.7892,39.5106,42.9403,42.7736
+"Bakers",3,513011,38.2988,39.195,38.9703,39.6319
+"Butchers & other meat, poultry, & fish processing workers",3,513020,40.4145,40.9573,39.6367,41.7086
+"Food & tobacco roasting, baking, & drying machine operators & tenders",3,513091,37.3495,41.7859,39.6895,42.3082
+"Food batchmakers",3,513092,36.9482,37.9562,39.1743,37.8072
+"Food cooking machine operators & tenders",3,513093,40.1215,35.5863,38.9692,44.2074
+"Food processing workers, all other",3,513099,39.1239,39.6031,43.1772,43.2717
+"Computer control programmers & operators",3,514010,42.8356,40.952,45.3029,43.4957
+"Extruding & drawing machine setters, operators, & tenders, metal & plastic",3,514021,40.5026,38.9103,38.5041,36.0046
+"Forging machine setters, operators, & tenders, metal & plastic",3,514022,43.0083,44.4812,63.4,53.4529
+"Rolling machine setters, operators, & tenders, metal & plastic",3,514023,43.3837,43.2017,47.6503,40.6754
+"Machine tool cutting setters, operators, & tenders, metal & plastic",3,514030,42.0197,41.9485,43.6898,45.0238
+"Machinists",3,514041,44.803,45.229,46.5838,41.09
+"Metal furnace operators, tenders, pourers, & casters",3,514050,40.0668,42.0356,46.4517,46.5214
+"Model makers, patternmakers, & molding machine setters, metal & plastic",3,5140XX,42.3614,41.69,42.641,41.8557
+"Tool & die makers",3,514111,48.9099,49.8232,46.8304,45.405
+"Welding, soldering, & brazing workers",3,514120,39.7188,39.2852,43.0325,43.6369
+"Miscellaneous metal workers & plastic workers, including multiple machine tool setters",3,514XXX,42.4097,41.9537,44.1722,43.229
+"Prepress technicians & workers",3,515111,43.4507,41.0168,41.32,42.0173
+"Printing press operators",3,515112,43.6065,44.308,43.6987,41.9409
+"Print binding & finishing workers",3,515113,45.2749,46.3118,43.3794,48.7687
+"Laundry & drycleaning workers",3,516011,40.0954,39.6754,45.3276,46.1112
+"Pressers, textile, garment, & related materials",3,516021,41.456,42.4038,45.0353,42.0761
+"Sewing machine operators",3,516031,40.3922,41.932,48.2632,48.6529
+"Shoe & leather workers",3,516040,46.4275,42.9857,46.953,40.6112
+"Tailors, dressmakers, & sewers",3,516050,49.0221,48.989,50.364,50.0681
+"Textile knitting & weaving machine setters, operators, & tenders",3,516063,41.9994,42.0885,47.7496,49.086
+"Textile winding, twisting, & drawing out machine setters, operators, & tenders",3,516064,40.2433,44.945,44.2694,43.9519
+"Textile bleaching & dyeing, & cutting machine setters, operators, & tenders",3,51606X,41.5624,42.0866,42.9741,38.3842
+"Upholsterers",3,516093,44.8204,42.0051,47.4688,48.2843
+"Miscellaneous textile, apparel, & furnishings workers except upholsterers",3,51609X,42.3476,40.6333,48.4739,46.0081
+"Cabinetmakers & bench carpenters",3,517011,42.2199,41.651,39.2782,36.1099
+"Furniture finishers",3,517021,39.6165,40.1741,43.699,47.5818
+"Sawing machine setters, operators, & tenders, wood",3,517041,39.4172,38.547,42.7479,41.7318
+"Woodworking machine setters, operators, & tenders, except sawing",3,517042,37.4278,37.9562,44.511,39.409
+"Miscellaneous woodworkers, including model makers & patternmakers",3,5170XX,46.4787,41.0191,45.6508,42.0216
+"Power plant operators, distributors, & dispatchers",3,518010,45.826,44.0854,42.0888,43.8538
+"Stationary engineers & boiler operators",3,518021,48.4867,47.1961,46.8175,46.1352
+"Water & wastewater treatment plant & system operators",3,518031,45.7502,45.8638,41.2502,41.9895
+"Miscellaneous plant & system operators",3,518090,43.8506,43.3205,40.4683,47.2045
+"Chemical processing machine setters, operators, & tenders",3,519010,42.0119,40.8694,38.6577,40.3209
+"Crushing, grinding, polishing, mixing, & blending workers",3,519020,40.9164,40.4322,43.6055,38.831
+"Cutting workers",3,519030,39.7739,40.9704,44.2415,44.7811
+"Extruding, forming, pressing, & compacting machine setters, operators, & tenders",3,519041,41.6498,41.933,46.0968,43.7456
+"Furnace, kiln, oven, drier, & kettle operators & tenders",3,519051,43.1863,40.0902,52.7716,40.6126
+"Inspectors, testers, sorters, samplers, & weighers",3,519061,42.5121,42.7824,43.8151,43.2924
+"Jewelers & precious stone & metal workers",3,519071,48.0545,45.4034,40.6805,45.1039
+"Medical, dental, & ophthalmic laboratory technicians",3,519080,42.9162,44.366,39.9762,41.6375
+"Packaging & filling machine operators & tenders",3,519111,38.9947,39.111,42.0511,42.0418
+"Painting workers",3,519120,39.5312,39.4803,39.702,40.4934
+"Photographic process workers & processing machine operators",3,519151,36.3182,35.5211,39.221,39.674
+"Adhesive bonding machine operators & tenders",3,519191,43.2604,36.0988,40.8719,42.1861
+"Etchers & engravers",3,519194,48.3447,45.4964,46.0471,36.7189
+"Molders, shapers, & casters, except metal & plastic",3,519195,40.4572,39.4112,37.1147,43.7823
+"Paper goods machine setters, operators, & tenders",3,519196,43.8515,41.9174,43.3469,40.9069
+"Tire builders",3,519197,40.9248,40.538,41.0773,38.6526
+"Helpersproduction workers",3,519198,33.1177,36.8707,39.3098,39.3102
+"Miscellaneous production workers, including semiconductor processors",3,5191XX,40.5766,41.117,42.7851,42.9034
+"Transportation & Material Moving Occupations",1,530000,42.1407,42.1196,42.6977,42.7585
+"Supervisors of transportation & material moving workers",3,531000,44.1815,43.24,43.6946,44.6684
+"Transportation Occupations",2,531000-536000,45.4263,45.4494,45.4486,45.908
+"Aircraft pilots & flight engineers",3,532010,44.8651,44.3419,38.5103,37.7415
+"Air traffic controllers & airfield operations specialists",3,532020,36.9866,40.0857,38.1426,37.6764
+"Flight attendants",3,532031,46.5683,45.3321,46.6966,47.2492
+"Ambulance drivers & attendants, except emergency medical technicians",3,533011,39.7163,41.3568,37.4447,39.9851
+"Bus drivers",3,533020,54.1305,53.8006,49.2753,49.7485
+"Driver/sales workers & truck drivers",3,533030,45.2791,45.1917,43.1119,42.9695
+"Taxi drivers & chauffeurs",3,533041,48.2049,48.3791,45.591,45.3437
+"Motor vehicle operators, all other",3,533099,55.0229,54.7195,42.1372,47.6733
+"Locomotive engineers & operators",3,534010,45.2938,45.4195,43.5039,52.7817
+"Railroad conductors & yardmasters",3,534031,40.2603,40.8843,38.978,43.3772
+"Subway, streetcar, & other rail transportation workers",3,5340XX,41.0732,43.2368,44.253,37.0457
+"Ship & boat captains & operators",3,535020,40.4609,42.7492,30.1889,40.4181
+"Sailors & marine oilers, & ship engineers",3,5350XX,35.889,36.1061,28.4133,31.5062
+"Parking lot attendants",3,536021,37.2449,38.0818,34.6992,39.8158
+"Automotive & watercraft service attendants-",3,536031,33.3724,32.4582,35.1983,34.5597
+"Transportation inspectors",3,536051,46.7663,46.7023,46.1732,41.4312
+"Transportation attendants, except flight attendants",3,536061,42.0711,43.3209,45.2107,45.5569
+"Miscellaneous transportation workers, including bridge & lock tenders & traffic technicians",3,5360XX,38.8995,41.1825,44.2258,41.7322
+"Material Moving Occupations",2,537000,37.1859,37.0722,40.2514,39.8425
+"Crane & tower operators",3,537021,44.4312,45.6693,43.9235,40.385
+"Dredge, excavating, & loading machine operators",3,537030,41.5676,43.5016,44,47.4538
+"Industrial truck & tractor operators",3,537051,40.0019,39.8169,44.1193,42.5747
+"Cleaners of vehicles & equipment",3,537061,34.7211,34.2604,39.7437,37.2511
+"Laborers & freight, stock, & material movers, hand",3,537062,36.7264,36.5296,39.4,39.333
+"Machine feeders & offbearers",3,537063,40.5952,34.9741,41.0064,42.6653
+"Packers & packagers, hand",3,537064,35.3586,36.1266,40.9642,40.6522
+"Pumping station operators",3,537070,40.5037,40.6049,34.6818,29.488
+"Refuse & recyclable material collectors",3,537081,39.0808,40.2688,41.4972,41.6952
+"Conveyor operators & tenders, & hoist & winch operators",3,5370XX,38.6133,39.9539,37.654,36.2965
+"Miscellaneous material moving workers, including mine shuttle car operators, & tank car, truck, & ship loaders",3,5371XX,42.05,40.861,44.696,38.7958
+"Military specific occupations",1,550000,29.008,29.242,27.9848,28.4833
+"Military officer special & tactical operations leaders",3,551010,33.7289,32.5563,31.8342,36.3389
+"Firstline enlisted military supervisors",3,552010,33.4909,35.1155,34.1364,33.4169
+"Military enlisted tactical operations & air/weapons specialists & crew members",3,553010,23.7697,23.9001,21.9566,23.028
+"Military, rank not specified",3,559830,30.074,29.808,29.5205,28.7508
