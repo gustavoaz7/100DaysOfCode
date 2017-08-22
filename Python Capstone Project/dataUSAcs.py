@@ -31,7 +31,7 @@ allppl15 = 0
 for row in cur1.execute('SELECT ppl2015 FROM AvgCS'):
     allppl15 += row[0]
 
-
+print(allppl14)
 
 
 
