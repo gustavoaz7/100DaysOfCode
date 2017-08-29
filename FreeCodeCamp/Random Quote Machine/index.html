@@ -6,29 +6,33 @@
 	<title>Random Quote Machine</title>
 	<link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Shadows+Into+Light+Two" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Shadows+Into+Light+Two" rel="stylesheet">
 </head>
 <body>
   <div id="body">
-    <i id="iniQ" class="fa fa-quote-left"></i>
     <h1>Quote Machine</h1>
-    <div id="generator">
-      <button id="btn">Generate Quote</button>
-    </div>
+    <hr/>
+    <div id="clear"></div>
     <div id="container">
+      <i id="iniQ" class="fa fa-quote-left"></i>
       <div id="quote">
       </div>
       <div id="author">
       </div>
+      <i id="finQ" class="fa fa-quote-left"></i>
     </div>
-    <div id="social">
-      <a id="twitter" href="#" target="_blank" alt="Tweet this quote"><i class="fa fa-twitter fa-lg"></i></a>
+    <div id="b">
+      <div class="btn">
+        <p id="generator">Generate Quote</p>
+      </div>
+      <div class='btn'>
+        <a id="twitter" href="#" target="_blank" alt="Tweet this quote"><i class="fa fa-twitter fa-lg"></i></a>
+      </div>
     </div>
-    <i id="finQ" class="fa fa-quote-left"></i>
+    <div class="footer">
+      <p>Created by <a href="https://github.com/gustavoaz7">GustavoAz7</a>. Thanks to <a href="https://forismatic.com/en/api/" target="_blank">Forismatic API</a></p>
+    </div>
   </div>
-  <footer class="footer">
-    <p>Created by GustavoAz7 - 2017. Thanks to <a href="https://forismatic.com/en/api/" target="_blank">Forismatic API</a></p>
-  </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="script.js"></script>
 </body>

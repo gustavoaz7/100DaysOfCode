@@ -1,5 +1,6 @@
 
-var quoteMsge = $("#btn");
+var quoteMsge = $('#generator')
+var quoteStyle = document.querySelectorAll('.fa-quote-left');
 
 $(document).ready(function() {
   quoteMsge.click(function () {
@@ -21,6 +22,7 @@ $(document).ready(function() {
 					alert('Tweet is not possible. This quote is over 140 characters.'); 
 					e.preventDefault()
 				});
+        quoteStyle.forEach(x => x.style.visibility = 'visible')
 			}
     });
   });
