@@ -1,0 +1,89 @@
+* {margin:0; padding:0}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+}
+
+#body {
+  margin: 10% 15%;
+  padding: 3%;
+  border: 5px solid #00aced;
+  border-radius: 20px;
+  position: relative;
+}
+
+.fa-quote-left {
+  font-size: calc(12px + 2vw);
+  position: absolute;
+  
+}
+
+#iniQ {
+  left: 3%;
+  top: 3%;
+}
+
+#finQ {
+  right: 3%;
+  bottom: 3%;
+  transform: rotate(180deg);
+}
+
+h1 {
+  text-align: center;
+  font-size: calc(12px + 4vw);
+  font-family: 'Monoton', cursive;
+  font-weight: 400;
+}
+
+#container {
+  margin: auto ;
+  padding: 2% 4%;
+  background: white;
+  border-radius: 5px;
+  height: auto;
+  min-height: 90px;
+  width: 80%;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: calc(10px + 1.5vw);
+  
+}
+
+#author {
+  float: clear;
+  text-align:right;
+  font-weight: 600;
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+#generator {
+  text-align: center;
+}
+#generator>button {
+  padding: 1% 1%;
+}
+
+#social {
+  margin: 10px 0 0 15%;
+}
+#twitter {
+  padding: 3px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 5px 0;
+  background: #eee;
+  color: #333;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  font-family: 'Shadows Into Light Two';
+}
