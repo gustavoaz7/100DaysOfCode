@@ -84,7 +84,6 @@ hr {
   text-align: center;
   position: absolute;
   cursor: pointer;
-  background: linear-gradient(120deg, #00aced 10%, #098bbc 80%);
   border-radius: 3px;
   font-family: 'Fredericka the Great', cursive;
   font-size: calc(8px + 1vw);
@@ -92,6 +91,15 @@ hr {
   border: 2px ridge #098bbc;
   background: rgba(8, 154, 209, 0.8);
   padding: 6px;
+}
+
+#generator:hover {
+  color: #fff;
+  background: rgba(8, 154, 209, 1);
+}
+
+#generator:active {
+  top: 1px;
 }
 
 #twitter {
