@@ -146,7 +146,7 @@ CWDC Sec6 (jQuery) 20/28
 ## Day 28 - 06/08
 * JS30 30 - Whack-A-Mole (Completed!)
 * Book Eloquent JS - up to Ch.2
-* Py4E Course 4 - Week 4
+* Py4E Course 4 - Week 4  
 **Thoughts:** After a long time thinking about new features and how to implement it, my final project from JS30 is completed! Now users are able to chose from three different levels for the game and select time duration of each round. Localstorage is used to store users best score on each category.
 
 ## Day 29 - 07/08
@@ -157,7 +157,7 @@ CWDC Sec6 (jQuery) 20/28
 ## Day 30 - 08/08
 * 2 FCC Intermediate Algorithm challenges
 * Py4E Course 5 - Week 1
-*  CWDC Fruit Game (Styling)
+* CWDC Fruit Game (Styling)
 
 ## Day 31 - 09/08
 * 2 FCC Intermediate Algorithm challenges
@@ -174,6 +174,101 @@ CWDC Sec6 (jQuery) 20/28
 * 2 FCC Intermediate Algorithm challenges
 * Py4E Course 5 - Week 5
 * Eloquent JS - up to Ch.5
-* CWDC Fruit Game (Functionalities)
+* CWDC Fruit Game (Functionalities)  
 **Thoughts:** Quick note:  Completing daily Codewars challenges have definitely built me stronger. Many FCC intermediate algorithm challenges looks like beginner level now. Waiting for the advanced ones!
+
+## Day 34 - 12/08
+* 2 FCC Intermediate Algorithm challenges
+* Eloquent JS - Ch.6
+* Fruit Game (cont.)
+
+## Day 35 - 13/08
+* 2 FCC Intermediate Algorithm challenges
+* Fruit Game (Compelted!)
+
+## Day 36 - 14/08
+* 3 FCC Intermediate Algorithm challenges
+* Py4E Course 5 - Week 6
+
+## Day 37 - 15/08
+* 2 FCC Intermediate Algorithm challenges (Completed!)
+* CWDC Sec 8 (Bootstrap) 10/28
+
+## Day 38 - 16/08
+* 1 FCC Advanced Algorithm challenge
+* CWDC Sec 8 (Completed!)
+* Eloquent JS - Ch.7
+
+## Day 39 - 17/08
+* 1 FCC Advanced Algorithm challenge
+* Eloquent JS - Ch.8
+* [ES6katas](es6katas.org) 4/79
+
+## Day 40[1] - 18/08  
+Could not code today. Rules are clear: 15+ streak days from now on. Commitment is key!
+
+## Day 40[2] - 19/08
+* 1 FCC Advanced Algorithm challenge
+* Py4E Course 5 - Capstone Project (start)  
+**Thoughts:** For my Capstone Project I am planning on using Python + SQLite + D3.js. I'll be using [USA data](datausa.io) to compare wage from all occupations with Computer Science (and related).
+
+## Day 41 - 20/08
+* 1 FCC Advanced Algorithm challenge
+* ES6katas 12/79
+* Eloquent JS - Ch.9
+
+## Day 42 - 21/08
+* 1 FCC Advanced Algorithm challenge
+* ES6katas 22/79
+* Eloquent JS - Ch.10
+* Py4E Course 5 - Capstone Project (Completed!)  
+**Thoughts:** Today is on my top5 coding time! I got to finish my Capstone Project. I started with an excel spreadsheet (.csv) and used Python and SQLite to read, analyse and store data in a database. I also used [Google Charts](https://developers.google.com/chart/) API for visualization.  
+This is really exciting! I am really happy with what I achieved with this project. One may say that a graph like this can be easily created with excel but I and starting to grasp the power of these tools and how easier I can get things done and how much more I can accomplish.
+
+## Day 43 - 22/08
+* 1 FCC Advanced Algorithm challenge
+* ES6katas 34/79
+* Eloquent JS - Ch.11
+* [Codecademy](codecademy.com) Python 29%
+
+## Day 44 - 23/08
+* Eloquent JS - Ch.12&13
+* Codecademy Python 47%
+
+## Day 45 - 24/08
+* 1 FCC Advanced Algorithm challenge
+* ES6katas 47/79
+* Eloquent JS - Ch.14
+* Codecademy Python 61%
+
+## Day 46 - 25/08
+* 1 FCC Advanced Algorithm challenge
+* ES6katas 58/79
+* Codecademy Python 65%
+
+## Day 47 - 26/08
+* ES6katas 67/79
+* Eloquent JS - Ch.15
+
+## Day 48 - 27/08
+* FCC Advanced Algorithm challenge (Completed!)
+* ES6katas (Completed!)
+* Codecademy Python 85%
+
+## Day 49 - 28/08
+* FCC Random Quote Machine (start - functionalities)
+* Codecademy Python 100%
+
+## Day 50 - 29/08
+* FCC Random Quote Machine (styling) (Completed!)
+* Eloquent JS - Ch.16
+
+## Day 51 - 30/08
+* FCC Local Weather (start)
+* Studied CSS Grid  
+**Thoughts:** I felt weird using XMLHttpRequest in my previous project (Quote Machine) as I have already watched a few videos on promises and fetch function, which seems more readable and logical to me. So I decided to use this in the current project and It's already working. Also decided to take a look into CSS Grid and implement it in this project.
+
+## Day 52 - 31/08
+* FCC Local Weather (basic structure + functionalities (~70%))
+* Eloquent JS - Ch.17
 
