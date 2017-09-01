@@ -18,6 +18,9 @@ body {
 .time { grid-column-start: 3; }
 .time > * { text-align: center; }
 
+.bm {transform: scale(7);}
+.sm {transform: scale(1);}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -34,11 +37,24 @@ body {
 .temperature {
   grid-row-start: 1;
   grid-row-end: 4;
-  background: blue;
 }
 
-.info {
-  grid-row-start: 4;
+.tempNow>* { display: inline-block; }
+.tempMaxMin>*{ display: inline-block; }
+
+.info { 
+  grid-row-start: 6; 
+  grid-column-start: span 3;
+  width: 100%;
+  border:1px solid black;
+  display: flex; 
+  
+}
+.info li { 
+  display: inline-block; 
+  flex: 1;
+  text-align: center;
 }
 
-
+.fore {display: flex;}
+.fore>*{flex:1; text-align: center;}
