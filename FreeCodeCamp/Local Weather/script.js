@@ -9,7 +9,6 @@ const tempMaxMin = document.querySelector('.tempMaxMin')
 const humidity = document.querySelector('.humidity')
 const cloudyness = document.querySelector('.cloudyness')
 const wind = document.querySelector('.wind')
-const info = document.querySelector('.info')
 const forecast = document.querySelector('.forecast')
 
 const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -26,6 +25,7 @@ const weather = {
   'xxx': ['wi-na', 'url']
 }
 
+// Updating clocks curent time
 setInterval(function() {
   let now = new Date();
   hour.innerHTML = `${now.toString().split(" ")[4].slice(0,5)}`;
@@ -36,6 +36,7 @@ setInterval(function() {
   week.innerHTML = `${now.toString().split(" ")[0]} ${day}/${month}`;
 }, 1000);
 
+// Display Current Weather x 5 Day Forecast
 const btn = document.querySelector('.btn')
 const btnF = document.querySelector('.btnForecast')
 const btnC = document.querySelector('.btnCurrent')
@@ -55,12 +56,14 @@ btn.addEventListener('click', function (e) {
   logic = !logic;
 });
 
+// Changing units by new request with different units to the server
+  // Would it be better to create global variables for all values and change them with
+  // celsiusToFahrenheit and KMHtoMPH functions ?
 const metric = document.querySelector('.metric');
 let celsius = true;
 metric.addEventListener('click', function(e) {
-  console.log(this)
   if (celsius) {
-    units = 'fahrenheit';
+    units = 'imperial';
     metric.style.background = `linear-gradient(to left, rgba(255,255,255,0.8) 50%, transparent 50%)`;
     getAllData();
   } else {
@@ -122,7 +125,7 @@ function getAllData(){
       })
       .then(response => response.json())
         .then(data => {
-          console.log(data)
+          // Forecast is created on the fly. So we clean it up everytime the function is called to poppulate it again.
           while (forecast.firstChild) { forecast.removeChild(forecast.firstChild)};
           let now = new Date();
           let wd = now.getDay();
@@ -136,7 +139,7 @@ function getAllData(){
               if (wd > 6) wd -= 7;
               day.textContent = weekday[wd];
             let ico = document.createElement('i');
-              // Timespan of 3h between every item in the list. Therefore i*8
+              // Timespan of 3h between every item in the list. (3*8 = 24) Therefore i*8
               let main = data.list[i*8].weather[0].main;
               let id = data.list[i*8].weather[0].id;
               let icon = data.list[i*8].weather[0].icon;
