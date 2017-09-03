@@ -272,3 +272,6 @@ This is really exciting! I am really happy with what I achieved with this projec
 * FCC Local Weather (basic structure + functionalities (~70%))
 * Eloquent JS - Ch.17
 
+## Day 53 - 01/09
+* FCC Local Weather (Completed!)
+* Eloquent JS - Ch.18
