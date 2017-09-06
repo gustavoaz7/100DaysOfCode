@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  width: 50%;
+  max-width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+#container>img {
+  width: 80%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: calc(15px + 5%);
+  margin-bottom: calc(15px + 5%);
+}
+
+#head {
+  display: flex;
+  width: 100%;
+}
+#head>li {
+  flex: 1;
+  background: #ac89cd;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  
+}
