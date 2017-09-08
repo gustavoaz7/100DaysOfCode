@@ -1,3 +1,4 @@
+const display = document.querySelector('#display');
 const btns = document.querySelectorAll('p');
 const operators = {
   '÷': '/',
@@ -5,71 +6,91 @@ const operators = {
   '-': '-',
   '+': '+'
 }
-let calc = "", lastBtn, parCounter = 0, answer;
+let expression = "", // Expression string to be evaluated
+  lastBtn, // Last inputted element
+  parCounter = 0, // Parenthesis counter
+  answer; 
 
 btns.forEach(b=>b.addEventListener('click', ()=>{
-  // Avoiding duplicated operators
-  if (b.className === 'operator' && lastBtn.className === 'operator') {
-    calc = calc.slice(0,-1); 
-    calc += b.textContent
-  } else {
-    // Adding 'dot' only if last number is not yet decimal
-    if (b.className === 'dot') {
-      if (!/\d*\.\d*$/.test(calc)) calc += '.'
-    } else {
-      // Adding operator
-      if (b.className === 'operator') {
-        calc += operators[b.textContent]
-      } else {
-        // Adding numbers
-        if (b.className === 'number') {
-          calc += b.textContent
-        } else {
-          // Backspace - Removing last element
-          if (b.className === 'delete') {
-            calc.slice(0,-1)
-          } else {
-            // Clear all
-            if (b.className === 'clear') {
-              calc = '';
-            } else {
-              if (b.className === 'parO') {
-                /\d$/.test(calc) ? calc+='*(' : calc+='(';
-                parCounter++;
-              } else {
-                if (/\(/.test(calc) && parCounter > 0) calc+=')';
-                parCounter--;
-              }
-            }
-          }
-        }
-      }
-
-
-      
-    //if (b.className === 'equal') {
-      //answer = eval(calc).toFixed(8)
-      // while(answer[answer.length-1] === 0) {answer = answer.slice(0,-1)}
-   // }
-    }
-  }
-  lastBtn = b;
-  
-  console.log(calc)
-  if (b.textContent === '=') {
-    answer = eval(calc)
-    Number.isInteger(answer) ? answer : answer.toFixed(8);
-    while(answer[answer.length-1] === '0') {answer = answer.slice(0,-1)}
-    // For brevity I'm ignoring rounding of 10th element
-    answer < 10e10 ? answer = answer.toString().slice(0,10) : answer = answer.toExponential(5);
-    calc = answer;
-    console.log(answer);
-  }
+  input(b);
 }))
 
+// Working with keyboard inputs aswell
+// Special elements:
+  // Parenthesis - left/right arrow keys (open/close)
+  // Clear all - Space
+document.addEventListener('keydown', (e) => input(e));
 
 
+function input(pressed) {
 
-//   LISTEN FOR KEYPAD ASWELL
-// TURN IT ALL INTO A FUNCTION AND ACCEPT A DIFFERENT ARGUMENT (b.textContent and keyCode)
-// operators[b.textContent] || keyCode
+  // Evaluating expression
+  if ((pressed.textContent === '=') || (pressed.key === 'Enter')) {
+    try {
+      answer = eval(expression)
+      
+      // Dealing with floating point number precision problem:
+        // Set to 8 decimas places when not integer
+      Number.isInteger(answer) ? answer : answer.toFixed(8);
+        // Remove all zeros
+      while(answer[answer.length-1] === '0') {answer = answer.slice(0,-1)}
+
+      // Limiting result length to 10 characters
+        // When integer < 10e9, slice the string to get 10 chars (For brevity I'm ignoring rounding of 10th element)
+        // When integer > 10e9, show number in scientific notation
+      answer < 10e9 ? answer = answer.toString().slice(0,10) : answer = answer.toExponential(4);
+      expression = answer;
+    } catch(e) {
+      expression = `Error`
+    }
+  
+    // Avoiding duplicated operators (replace with last operator pressed)
+  } else if ( (pressed.className === 'operator' || (pressed.key||'').match(/[\+\-\*\/]/)) && lastBtn.match(/[\+\-\*\/]/) ) {
+    expression = expression.slice(0,-1); 
+    expression += operators[pressed.textContent] || pressed.key
+
+    // Adding 'dot' only if last number is not yet decimal
+  } else if ((pressed.className === 'dot') || (/[\.]/.test(pressed.key))) {
+    if (!/\d*\.\d*$/.test(expression)) expression += '.';
+    
+    // Adding operator
+  } else if ((pressed.className === 'operator') || (/[\+\-\*\/]/.test(pressed.key))) {
+    expression += operators[pressed.textContent] || pressed.key;
+
+    // Adding numbers
+  } else if ((pressed.className === 'number') || (/[0-9]/.test(pressed.key))) {
+    expression += pressed.textContent || pressed.key;
+
+    // Backspace - Removing last element
+  } else if ((pressed.className === 'delete') || (pressed.key === 'Backspace')) {
+    expression = expression.slice(0,-1);
+
+    // Clear all
+  } else if ((pressed.className === 'clear') || (pressed.key === ' ')) {
+    expression = '';
+    
+    // Parenthesis
+  } else if ((pressed.className === 'parO') || (pressed.key === 'ArrowLeft')) {
+    // When parenthesis is placed after a number or a closing parenthesis, multiply them
+    /\d$|\)$/.test(expression) ? expression += '*(' : expression += '(';
+    // Add 1 to opened parenthesis counter
+    parCounter++;
+  } else if ((pressed.className === 'parC') || (pressed.key === 'ArrowRight')) {
+    // Close parenthesis as long as there is an opened one.
+    if (/\(/.test(expression) && parCounter > 0) {
+      expression += ')';
+      parCounter--;
+    }
+  }
+
+  // Updating expression on display
+  expression === 'NaN' ? display.innerHTML = 'Error' : display.innerHTML = expression.slice(-10);
+
+  //Set new last element
+  lastBtn = expression[expression.length-1];
+}
+
+
+//  For advanced (scientific) calculator:
+// Replace last number ( expression.match(/\d+\.\d+$|\d+$/) ) with the pressed operation over this matched number.
+// Keyboard input for all Scientific Operations would be crazy random. Probably just listen to mouse-click
