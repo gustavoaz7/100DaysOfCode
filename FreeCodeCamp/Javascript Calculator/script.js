@@ -11,6 +11,7 @@ let expression = "", // Expression string to be evaluated
   parCounter = 0, // Parenthesis counter
   answer; 
 
+  // Working with mouse-click
 btns.forEach(b=>b.addEventListener('click', ()=>{
   input(b);
 }))
@@ -19,8 +20,24 @@ btns.forEach(b=>b.addEventListener('click', ()=>{
 // Special elements:
   // Parenthesis - left/right arrow keys (open/close)
   // Clear all - Space
-document.addEventListener('keydown', (e) => input(e));
+document.addEventListener('keydown', (e) => {
+  input(e)
+  // Style pressed element
+  pressed(e)
+});
 
+// Back to original element Style after transition
+btns.forEach(b => b.addEventListener('transitionend', pressEnd));
+
+function pressed(e) { 
+  let btn = document.getElementById(`${e.key}`);
+  btn.classList.add('pressed');
+}
+
+function pressEnd(e) {
+  if(e.propertyName!=('background-color'||'color')){return};
+  this.classList.remove('pressed');
+}
 
 function input(pressed) {
 
