@@ -1,0 +1,64 @@
+* {
+  padding:0; 
+  margin:0; 
+  box-sizing: border-box;
+  text-align: center
+}
+
+body {
+  background: rgba(0,0,0, 0.2);
+}
+
+#container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1{
+  margin: 30px 0 20px 0;
+}
+
+#setup {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-row-gap: 15px;
+  justify-items: center;
+}
+
+#setup>div {
+  grid-column: span 2;
+  padding: 15px;
+  border: 1px solid;
+}
+
+#reset {
+  grid-column: 2 / span 2 !important;
+}
+
+#play {
+  grid-column: 4 / span 2 !important;
+}
+
+
+.btn {
+  cursor: pointer;
+  user-select: none; /* Webkit for other browsers*/
+}
+
+#clock {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: radial-gradient(red, red 0%, transparent 5%, transparent);
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 2px solid red;
+}
+#display {
+    line-height: 120px;
+    font-size: 2em;
+}
+#timeleft {
+  line-height: 20px;
+  font-size: 1.5em;
+}
