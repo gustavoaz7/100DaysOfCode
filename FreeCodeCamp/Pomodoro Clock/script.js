@@ -7,9 +7,10 @@ const play = document.querySelector('#play')
 const clock = document.querySelector('#clock')
 const display = document.querySelector('#display')
 const timer = document.querySelector('#timer')
+const timeupSound = document.querySelector('#timeupSound')
 
-let sessionTime = 0.15;
-let restTime = 0.15;
+let sessionTime = 0.2;
+let restTime = 5;
 
 // Object of functions for each +/- time button
 const changeTime = {
@@ -61,11 +62,13 @@ function startSession() {
   
   startFlag = !startFlag;
   if (!startFlag) {  // Pause
-    play.textContent = 'PLAY';
+    play.innerHTML = '<i class="fa fa-play"></i>Play';
     clearInterval(sessionLeft);
   } else {  // Playing
-    play.textContent = 'PAUSE';
-    display.textContent = 'Session'
+    play.innerHTML = '<i class="fa fa-pause"></i>Pause';
+    display.textContent = 'Session';
+    clock.style.border = '2px solid rgba(249, 52, 54, 0.9)';
+    
 
     let timeRemaining;
     // If remaining time exists: interval was paused and is returning from where it lasted
@@ -76,8 +79,10 @@ function startSession() {
       timeRemaining--;
       remaining = timeRemaining;
       if (timeRemaining < 0) {
+        if (!soundFlag) timeupSound.play();
         clearInterval(sessionLeft);
         remaining = '';
+        clock.style.background = `radial-gradient(rgba(96, 204, 163, 0.7), rgba(46, 204, 113, 0.7) 67%, transparent 72%, transparent)`
         return startRest();
       }
       updateTimerDisplay(timeRemaining);
@@ -89,11 +94,12 @@ function startSession() {
 function startRest() {
   startFlag = !startFlag;
   if (startFlag) {  // Pause
-    play.textContent = 'PLAY';
+    play.innerHTML = '<i class="fa fa-play"></i>Play';
     clearInterval(restLeft);
   } else {  // Playing
-    play.textContent = 'PAUSE';
+    play.innerHTML = '<i class="fa fa-pause"></i>Pause';
     display.textContent = 'Rest';
+    clock.style.border = '2px solid rgba(46, 204, 113, 0.9)';
 
     let timeRemaining;
     // If remaining time exists: interval was paused and is returning from where it lasted
@@ -104,13 +110,14 @@ function startRest() {
       timeRemaining--;
       remaining = timeRemaining;
       if (timeRemaining < 0) {
+        if (!soundFlag) timeupSound.play();
         clearInterval(restLeft);
         remaining = '';
         display.textContent = 'Session';
         return startSession();
       }
       updateTimerDisplay(timeRemaining);
-      updateBackground(sessionTime*60, timeRemaining, false)
+      updateBackground(restTime*60, timeRemaining, false)
     }, 1000)
   }
 }
@@ -121,10 +128,11 @@ function resetSession() {
   clearInterval(restLeft);
   remaining = '';
   startFlag = false;
-  play.textContent = 'PLAY';
+  play.innerHTML = '<i class="fa fa-play"></i>Play';
   display.textContent = 'Session';
+  clock.style.border = '2px solid #eee';
   timer.innerHTML = `${sessionTime}:00`;
-  clock.style.background = `radial-gradient(red, red 0%, transparent 5%, transparent)`;
+  clock.style.background = `radial-gradient(red, red 0%, transparent 0%, transparent)`;
 }
 
 function updateTimerDisplay(timeRemaining) {
@@ -133,9 +141,13 @@ function updateTimerDisplay(timeRemaining) {
   timer.innerHTML = `${m}:${s < 10 ? '0'+s : s}`;
 }
 
-function updateBackground(total, remain, toCenter) {
+function updateBackground(total, remain, fromCenter) {
   let percent;
-  toCenter ? percent = (1 - remain / total) * 70 : percent = remain / total * 70;
-  console.log(total, remain, percent)
-  clock.style.background = `radial-gradient(red, red ${percent-10}%, transparent ${percent+5}%, transparent)`;
+  if (fromCenter) {
+    percent = (1 - remain / total) * 72;
+    clock.style.background = `radial-gradient(rgba(249, 102, 104, 0.65), rgba(249, 52, 54, 0.65) ${percent-5}%, transparent ${percent}%, transparent)`;
+  } else {
+    percent = remain / total * 75;
+    clock.style.background = `radial-gradient(rgba(96, 204, 163, 0.7), rgba(46, 204, 113, 0.7) ${percent-5}%, transparent ${percent}%, transparent)`;
+  }
 }
