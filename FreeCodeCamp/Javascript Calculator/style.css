@@ -8,6 +8,8 @@ body {
   background: rgba(0,0,0, 0.88);
 }
 
+p { user-select: none }
+
 #calculator{
   width: 350px;
   display: grid;
