@@ -275,3 +275,96 @@ This is really exciting! I am really happy with what I achieved with this projec
 ## Day 53 - 01/09
 * FCC Local Weather (Completed!)
 * Eloquent JS - Ch.18
+
+## Day 54 - 02/09
+* Eloquent JS - Ch.19
+
+## Day 55 - 03/09
+* Eloquent JS (Completed!)
+
+## Day 56 - 04/09
+* FCC Wikipedia Viewer (start)
+
+## Day 57 - 05/09
+* FCC Wikipedia Viewer (Completed!)
+* [Datascience Tutorials](https://www.learnpython.org/)
+
+## Day 58 - 06/09
+* FCC TwitchTV (Completed!)
+
+## Day 59 - 07/09
+* FCC JS Calculator (70%)
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+
+## Day 60 - 08/09
+* FCC JS Calculator (Completed)  
+*Bonus: Works with keyboard input aswell
+
+## Day 61 - 09/09
+* 1 JS kata
+* Automate the Boring Stuff w/ Python Ch.8
+
+## Day 62 - 10/09
+* FCC Pomodoro Clock (60%)
+* ABS w/ Python Ch.10
+
+## Day 63 - 11/09
+* FCC Pomodoro Clock (Completed!)
+
+## Day 64 - 12/09
+* ABS w/ Python Ch.13
+
+## Day 65 - 13/09
+* Harvard CS50 - Week 0
+* Codecademy code challenge of the week
+
+## Day 66 - 14/09
+* CS50 - Week 1  
+** **Thoughts:** For the next 10 days I'll be working around 12h/day in alternated shifts. Slower progress to come but still committing daily.
+
+## Day 67 - 15/09
+* CS50 - Week 2
+
+## Day 68 - 16/09
+* CS50 - Week 3
+
+## Day 69 - 17/09
+* CS50 - Week 4
+
+## Day 70 - 18/09
+* CS50 - Week 5
+
+## Day 71 - 19/09
+* ABS w/ Python (Completed!)
+* Creating a mega JS summary
+
+## Day 72 - 20/09
+* CS50 - Week 6
+* Selecting and reading some books for JS summary
+
+## Day 73 - 21/09
+* CS50 - Week 7
+
+## Day 74 - 22/09
+* CS50 - Week 8
+
+## Day 75 - 23/09
+* CS50 - Week 9
+* Continued reading JS books
+
+## Day 76 - 24/09
+* CS50 - Week 10
+
+## Day 77 - 25/09
+* CS50 - Week 11 (Completed!)
+
+## Day 78 - 26/09
+* Getting started with Chingu Cohort
+* Continued reading JS books
+
+## Day 79 - 27/09
+* Wrote a Python web scraping program to turn Medium articles into '.docx' to convert into audio and listen during traffic
+
+## Day 80 - 28/09
+* Wrote a Py program to use [Zamzar](www.zamzar.com) API to convert files.  
+*Waiting for them to enable API conversion from '.docx' to '.mp3'   
