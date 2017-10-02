@@ -368,3 +368,14 @@ This is really exciting! I am really happy with what I achieved with this projec
 ## Day 80 - 28/09
 * Wrote a Py program to use [Zamzar](www.zamzar.com) API to convert files.  
 *Waiting for them to enable API conversion from '.docx' to '.mp3'   
+
+## Day 81 - 29/09
+* Continued reading JS books and writting my summary
+
+## Day 82 - 30/09
+* Codecademy Learn SQL (Completed!)
+* Codecademy SQL Table Transformation (25%+)
+
+## Day 83 - 01/10
+* Codecademy SQL Table Transformation (Completed!)
+* Codecademy SQL Analyzing Business Metrics (Completed!)
