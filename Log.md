@@ -379,3 +379,8 @@ This is really exciting! I am really happy with what I achieved with this projec
 ## Day 83 - 01/10
 * Codecademy SQL Table Transformation (Completed!)
 * Codecademy SQL Analyzing Business Metrics (Completed!)
+
+## Day 84 - 02/10
+* Further readings on SQL
+* Codecademy Learn ReactJS: Part I (28%)
+* Codeflights Python 800xp
