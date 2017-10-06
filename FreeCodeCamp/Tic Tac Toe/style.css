@@ -6,7 +6,7 @@ body {
   width: 80vw;
   height: 90vh;
   margin-top: 3vh;
-  background: rgba(12, 110, 193, 0.7);
+  background: linear-gradient(45deg, rgba(12, 110, 193, 0.9) 0%,rgba(12, 110, 193, 0.7) 50%,rgba(12, 110, 193, 0.9) 100%);
   color: #333;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
