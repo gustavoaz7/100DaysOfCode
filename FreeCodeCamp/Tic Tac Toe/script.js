@@ -6,6 +6,7 @@ let human = 'X', bot = 'O';
 let botMove;
 let gameboard = new Array(9).fill(0);
 let turn = 0;
+let [tieGames, botWins, userWins] = [0, 0, 0];
 
 
 selectMarker();
@@ -41,8 +42,7 @@ function humanTurn(e) {
   if (!gameboard[e.target.id]) {
     [gameboard[e.target.id], e.target.textContent] = [human, human];
     turn++;
-    isOver(gameboard, human);
-    botTurn();
+    if (!isOver(gameboard, human)) botTurn();
   }
 }
 
@@ -61,9 +61,19 @@ function availableSpots(board) {
 
 // When there is a winner/tie - Display box with result
 function isOver(board, player) {
-  if (isWin(board, player) || turn >= 9) {
-    turn >= 9 ? gameover.firstElementChild.textContent = "IT'S A TIE" :
-      player === bot ? gameover.firstElementChild.textContent = 'YOU LOST' : 'YOU WON';
+  let winner = isWin(board, player);
+  if (winner || turn >= 9) {
+    if (winner && player === bot) {
+      gameover.firstElementChild.textContent = 'YOU LOST!';
+      botWins++;
+    } else if (winner && player === human) {
+      gameover.firstElementChild.textContent = 'YOU WON!';
+      userWins++;
+    } else if (turn >= 9) {
+      gameover.firstElementChild.textContent = "IT'S A TIE!";
+      tieGames++;
+    }
+    updateScore();
     document.querySelectorAll('#board>span').forEach((cell, i) => {
       cell.removeEventListener('click', humanTurn);
     });
@@ -77,8 +87,17 @@ function isOver(board, player) {
       }, 600); 
       newGame()
     })
+    return true
   };
+  return false
 };
+
+function updateScore() {
+  let scores = [tieGames, botWins, userWins];
+  ['tieGame', 'botWin', 'userWin'].forEach((x, i) => {
+    document.querySelector(`#${x}`).textContent = `${scores[i]}  `;
+  })
+}
 
 function isWin(board, player) {
   // Store played indexes of current player.
