@@ -1,12 +1,32 @@
 const winningPlay = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
-const human = 'X', bot = 'O';
+const selection = document.querySelector('#selection');
+const gameover = document.querySelector('#gameOver');
+const boxes = document.querySelector('#boxes');
+let human = 'X', bot = 'O';
 let botMove;
 let gameboard = new Array(9).fill(0);
 let turn = 0;
 
 
+selectMarker();
 
-newGame();
+// Display marker options and start game when one is selected
+function selectMarker() {
+  boxes.style.display = 'block';
+  selection.classList = 'animated flipInX';
+  document.querySelectorAll('#select>span').forEach(marker => {
+    marker.addEventListener('click', () => {
+      human = marker.textContent;
+      bot = (human === 'X' ? 'O' : 'X');
+      selection.classList = 'animated flipOutX';
+      setTimeout(() => {
+        boxes.style.display = 'none';
+        selection.style.display = "none";
+      }, 600); 
+      newGame()
+    })
+  });
+}
 
 function newGame() {
   gameboard = new Array(9).fill(0);
@@ -18,10 +38,12 @@ function newGame() {
 }
 
 function humanTurn(e) {
-  [gameboard[e.target.id], e.target.textContent] = [human, human];
-  turn++;
-  // win?tie?
-  botTurn();
+  if (!gameboard[e.target.id]) {
+    [gameboard[e.target.id], e.target.textContent] = [human, human];
+    turn++;
+    isOver(gameboard, human);
+    botTurn();
+  }
 }
 
 function botTurn() {
@@ -29,31 +51,40 @@ function botTurn() {
   //console.log(botMove);
   [gameboard[botMove], document.getElementById(botMove).textContent] = [bot, bot];
   turn++;
-  // win?tie?
+  isOver(gameboard,bot);
 }
 
 // Array of available spots' indexes.
 function availableSpots(board) {
-  let av = board.map((cell, i) => !cell ? i : null).filter(x => x != null);
-  if (!av) tieGame();
-  return av
+  return board.map((cell, i) => !cell ? i : null).filter(x => x != null);
 }
 
-function isOver() {
-
-}
+// When there is a winner/tie - Display box with result
+function isOver(board, player) {
+  if (isWin(board, player) || turn >= 9) {
+    turn >= 9 ? gameover.firstElementChild.textContent = "IT'S A TIE" :
+      player === bot ? gameover.firstElementChild.textContent = 'YOU LOST' : 'YOU WON';
+    document.querySelectorAll('#board>span').forEach((cell, i) => {
+      cell.removeEventListener('click', humanTurn);
+    });
+    boxes.style.display = 'block';
+    gameover.style.display = 'block';
+    gameover.classList = 'animated flipInX';
+    gameover.lastElementChild.addEventListener('click', () => {
+      gameover.classList = 'animated flipOutX';
+      setTimeout(() => {
+        boxes.style.display = 'none';
+      }, 600); 
+      newGame()
+    })
+  };
+};
 
 function isWin(board, player) {
   // Store played indexes of current player.
   let plays = board.map((cell, i) => cell === player ? i : null).filter(x => x != null);
   return winningPlay.some(win => win.every(w => plays.includes(w)))
 }
-
-/*
-function isTie() {
-  return turn >= 9 ? console.log('tie game') : console.log('game continues');
-}
-*/
 
 
 function minimax(board, player) {
