@@ -9,7 +9,7 @@ const display = document.querySelector('#display')
 const timer = document.querySelector('#timer')
 const timeupSound = document.querySelector('#timeupSound')
 
-let sessionTime = 0.2;
+let sessionTime = 25;
 let restTime = 5;
 
 // Object of functions for each +/- time button
