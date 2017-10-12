@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Simon Game</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
 </head>
 <body>
   
@@ -17,9 +18,12 @@
   <div id="center">
     <h1>Simon</h1>
     <div id="difficulty">
-      <input type="radio" name="level" value="Easy">Easy</input>
-      <input type="radio" name="level" value="Medium" checked>Medium</input>
-      <input type="radio" name="level" value="Hard">Hard</input>
+      <input type="radio" name="level" value="Easy" id="speed1" />
+      <label for="speed1">Easy</label>
+      <input type="radio" name="level" value="Medium" id="speed2" checked />
+      <label for="speed2">Medium</label>
+      <input type="radio" name="level" value="Hard" id="speed3" />
+      <label for="speed3">Hard</label>
     </div>
     <div class="options">
       <div id="counter">
