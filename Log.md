@@ -384,3 +384,42 @@ This is really exciting! I am really happy with what I achieved with this projec
 * Further readings on SQL
 * Codecademy Learn ReactJS: Part I (28%)
 * Codeflights Python 800xp
+
+## Day 85 - 03/10
+* FCC Tic Tac Toe (30%)
+* 1 JS kata
+* NodeJS server with MySQL
+
+## Day 86 - 04/10
+* FCC Tic Tac Toe (65% - AI moves)
+* 1 JS kata
+* NodeJS section on Colt Steele Bootcamp
+
+## Day 87 - 05/10
+* FCC Tic Tac Toe (Completed!)
+
+## Day 88 - 06/10
+* 1 JS kata (leveled up! - 4 kyu)
+* More on NodeJS & MySQL
+
+## Day 89 - 07/10
+* Started FCC Simon Game
+* Knex.js for database setup
+
+## 90 - 08/10
+* User registration & logging with NodeJS & MySQL
+
+## 91 - 09/10
+* Continued on FCC Simon Game
+* Reading YDKJS
+
+## 92 - 10/10
+* Still on FCC Simon Game
+* Reading YDKJS
+
+## 93 - 11/10
+* FCC Simon Game (Completed!)
+* Reading YDKJS
+
+## Day 94 - 12/10
+* Reading YDKJS
