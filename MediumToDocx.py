@@ -32,7 +32,8 @@ title = body[0].contents[0].text
 
 def writeToDoc(block):
     for p in block:  # Looping through each tag
-        if 'figure' != p.name:  # This will ignore images tags and its labels.
+        if 'figure' != p.name or 'graf--mixtapeEmbed' in p['class']: 
+            # This will ignore images tags and its labels. And also embedded links
             if [''.join(p.text.strip().split())] == ['CallToAction']: break # [Optional] I usually ignore this section.
             # print(p.text.strip())
             document.add_paragraph(p.text.strip())  # Adding text to document.
