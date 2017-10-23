@@ -435,4 +435,15 @@ This is really exciting! I am really happy with what I achieved with this projec
 
 ## Day 97 - 15/10
 * Reading YDKJS and writting post
-MySQL Bootcamp (75%)
+* MySQL Bootcamp (75%)
+
+## Day 98 - 16/10
+* Reading YDKJS and writting post
+* MySQL Bootcamp (Completed!)
+
+## Day 99 - 17/10
+* Reading YDKJS and writting post
+* Worked in Chingu project
+
+## Day 100 - 18/10
+* Reading YDKJS and writting post
