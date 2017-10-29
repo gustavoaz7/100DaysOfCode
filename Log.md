@@ -420,6 +420,30 @@ This is really exciting! I am really happy with what I achieved with this projec
 ## 93 - 11/10
 * FCC Simon Game (Completed!)
 * Reading YDKJS
+* Received FCC Front-End Certificate! :)
 
 ## Day 94 - 12/10
-* Reading YDKJS
+* Reading YDKJS and writting post
+
+## Day 95 - 13/10
+* Reading YDKJS and writting post
+* MySQL Bootcamp (25%)
+
+## Day 96 - 14/10
+* Reading YDKJS and writting post
+* MySQL Bootcamp (50%)
+
+## Day 97 - 15/10
+* Reading YDKJS and writting post
+* MySQL Bootcamp (75%)
+
+## Day 98 - 16/10
+* Reading YDKJS and writting post
+* MySQL Bootcamp (Completed!)
+
+## Day 99 - 17/10
+* Reading YDKJS and writting post
+* Worked in Chingu project
+
+## Day 100 - 18/10
+* Reading YDKJS and writting post
